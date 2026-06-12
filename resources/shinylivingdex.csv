@@ -1,0 +1,1313 @@
+Shinydex,Shiny Formdex,Location pick,Location,ID,Pokemon,#
+FALSE,FALSE,No,No,1,Bulbasaur,0001
+FALSE,FALSE,No,No,2,Ivysaur,0002
+FALSE,FALSE,No,No,3_m,Venusaur ♂,0003
+,FALSE,No,No,3_f,Venusaur ♀,
+FALSE,FALSE,No,No,4,Charmander,0004
+FALSE,FALSE,No,No,5,Charmeleon,0005
+FALSE,FALSE,No,No,6,Charizard,0006
+FALSE,FALSE,No,No,7,Squirtle,0007
+FALSE,FALSE,No,No,8,Wartortle,0008
+FALSE,FALSE,No,No,9,Blastoise,0009
+FALSE,FALSE,No,No,10,Caterpie,0010
+FALSE,FALSE,No,No,11,Metapod,0011
+FALSE,FALSE,No,No,12_m,Butterfree ♂,0012
+,FALSE,No,No,12_f,Butterfree ♀,
+FALSE,FALSE,No,No,13,Weedle,0013
+FALSE,FALSE,No,No,14,Kakuna,0014
+FALSE,FALSE,No,No,15,Beedrill,0015
+FALSE,FALSE,No,No,16,Pidgey,0016
+FALSE,FALSE,No,No,17,Pidgeotto,0017
+FALSE,FALSE,No,No,18,Pidgeot,0018
+FALSE,FALSE,No,No,19_m,Rattata ♂,0019
+,FALSE,No,No,19_f,Rattata ♀,
+,FALSE,No,No,19_a,Alolan Rattata,
+FALSE,FALSE,No,No,20_m,Raticate ♂,0020
+,FALSE,No,No,20_f,Raticate ♀,
+,FALSE,No,No,20_a,Alolan Raticate,
+FALSE,FALSE,No,No,21,Spearow,0021
+FALSE,FALSE,No,No,22,Fearow,0022
+FALSE,FALSE,No,No,23,Ekans,0023
+FALSE,FALSE,No,No,24,Arbok,0024
+FALSE,FALSE,No,No,25_m,Pikachu ♂,0025
+,FALSE,No,No,25_f,Pikachu ♀,
+FALSE,FALSE,No,No,26_m,Raichu ♂,0026
+,FALSE,No,No,26_f,Raichu ♀,
+,FALSE,No,No,26_a,Alolan Raichu,
+FALSE,FALSE,No,No,27,Sandshrew,0027
+,FALSE,No,No,27_a,Alolan Sandshrew,
+FALSE,FALSE,No,No,28,Sandslash,0028
+,FALSE,No,No,28_a,Alolan Sandslash,
+FALSE,FALSE,No,No,29,Nidoran♀,0029
+FALSE,FALSE,No,No,30,Nidorina,0030
+FALSE,FALSE,No,No,31,Nidoqueen,0031
+FALSE,FALSE,No,No,32,Nidoran♂,0032
+FALSE,FALSE,No,No,33,Nidorino,0033
+FALSE,FALSE,No,No,34,Nidoking,0034
+FALSE,FALSE,No,No,35,Clefairy,0035
+FALSE,FALSE,No,No,36,Clefable,0036
+FALSE,FALSE,No,No,37,Vulpix,0037
+,FALSE,No,No,37_a,Alolan Vulpix,
+FALSE,FALSE,No,No,38,Ninetales,0038
+,FALSE,No,No,38_a,Alolan Ninetales,
+FALSE,FALSE,No,No,39,Jigglypuff,0039
+FALSE,FALSE,No,No,40,Wigglytuff,0040
+FALSE,FALSE,No,No,41_m,Zubat ♂,0041
+,FALSE,No,No,41_f,Zubat ♀,
+FALSE,FALSE,No,No,42_m,Golbat ♂,0042
+,FALSE,No,No,42_f,Golbat ♀,
+FALSE,FALSE,No,No,43,Oddish,0043
+FALSE,FALSE,No,No,44_m,Gloom ♂,0044
+,FALSE,No,No,44_f,Gloom ♀,
+FALSE,FALSE,No,No,45_m,Vileplume ♂,0045
+,FALSE,No,No,45_f,Vileplume ♀,
+FALSE,FALSE,No,No,46,Paras,0046
+FALSE,FALSE,No,No,47,Parasect,0047
+FALSE,FALSE,No,No,48,Venonat,0048
+FALSE,FALSE,No,No,49,Venomoth,0049
+FALSE,FALSE,No,No,50,Diglett,0050
+,FALSE,No,No,50_a,Alolan Diglett,
+FALSE,FALSE,No,No,51,Dugtrio,0051
+,FALSE,No,No,51_a,Alolan Dugtrio,
+FALSE,FALSE,No,No,52,Meowth,0052
+,FALSE,No,No,52_a,Alolan Meowth,
+,FALSE,No,No,52_g,Galarian Meowth,
+FALSE,FALSE,No,No,53,Persian,0053
+,FALSE,No,No,53_a,Alolan Persian,
+FALSE,FALSE,No,No,54,Psyduck,0054
+FALSE,FALSE,No,No,55,Golduck,0055
+FALSE,FALSE,No,No,56,Mankey,0056
+FALSE,FALSE,No,No,57,Primeape,0057
+FALSE,FALSE,No,No,58,Growlithe,0058
+,FALSE,No,No,58_h,Hisuian Growlithe,
+FALSE,FALSE,No,No,59,Arcanine,0059
+,FALSE,No,No,59_h,Hisuian Arcanine,
+FALSE,FALSE,No,No,60,Poliwag,0060
+FALSE,FALSE,No,No,61,Poliwhirl,0061
+FALSE,FALSE,No,No,62,Poliwrath,0062
+FALSE,FALSE,No,No,63,Abra,0063
+FALSE,FALSE,No,No,64_m,Kadabra ♂,0064
+,FALSE,No,No,64_f,Kadabra ♀,
+FALSE,FALSE,No,No,65_m,Alakazam ♂,0065
+,FALSE,No,No,65_f,Alakazam ♀,
+FALSE,FALSE,No,No,66,Machop,0066
+FALSE,FALSE,No,No,67,Machoke,0067
+FALSE,FALSE,No,No,68,Machamp,0068
+FALSE,FALSE,No,No,69,Bellsprout,0069
+FALSE,FALSE,No,No,70,Weepinbell,0070
+FALSE,FALSE,No,No,71,Victreebel,0071
+FALSE,FALSE,No,No,72,Tentacool,0072
+FALSE,FALSE,No,No,73,Tentacruel,0073
+FALSE,FALSE,No,No,74,Geodude,0074
+,FALSE,No,No,74_a,Alolan Geodude,
+FALSE,FALSE,No,No,75,Graveler,0075
+,FALSE,No,No,75_a,Alolan Graveler,
+FALSE,FALSE,No,No,76,Golem,0076
+,FALSE,No,No,76_a,Alolan Golem,
+FALSE,FALSE,No,No,77,Ponyta,0077
+,FALSE,No,No,77_g,Galarian Ponyta,
+FALSE,FALSE,No,No,78,Rapidash,0078
+,FALSE,No,No,78_g,Galarian Rapidash,
+FALSE,FALSE,No,No,79,Slowpoke,0079
+,FALSE,No,No,79_g,Galarian Slowpoke,
+FALSE,FALSE,No,No,80,Slowbro,0080
+,FALSE,No,No,80_g,Galarian Slowbro,
+FALSE,FALSE,No,No,81,Magnemite,0081
+FALSE,FALSE,No,No,82,Magneton,0082
+FALSE,FALSE,No,No,83,Farfetch'd,0083
+,FALSE,No,No,83_g,Galarian Farfetch'd,
+FALSE,FALSE,No,No,84_m,Doduo ♂,0084
+,FALSE,No,No,84_f,Doduo ♀,
+FALSE,FALSE,No,No,85_m,Dodrio ♂,0085
+,FALSE,No,No,85_f,Dodrio ♀,
+FALSE,FALSE,No,No,86,Seel,0086
+FALSE,FALSE,No,No,87,Dewgong,0087
+FALSE,FALSE,No,No,88,Grimer,0088
+,FALSE,No,No,88_a,Alolan Grimer,
+FALSE,FALSE,No,No,89,Muk,0089
+,FALSE,No,No,89_a,Alolan Muk,
+FALSE,FALSE,No,No,90,Shellder,0090
+FALSE,FALSE,No,No,91,Cloyster,0091
+FALSE,FALSE,No,No,92,Gastly,0092
+FALSE,FALSE,No,No,93,Haunter,0093
+FALSE,FALSE,No,No,94,Gengar,0094
+FALSE,FALSE,No,No,95,Onix,0095
+FALSE,FALSE,No,No,96,Drowzee,0096
+FALSE,FALSE,No,No,97_m,Hypno ♂,0097
+,FALSE,No,No,97_f,Hypno ♀,
+FALSE,FALSE,No,No,98,Krabby,0098
+FALSE,FALSE,No,No,99,Kingler,0099
+FALSE,FALSE,No,No,100,Voltorb,0100
+,FALSE,No,No,100_h,Hisuian Voltorb,
+FALSE,FALSE,No,No,101,Electrode,0101
+,FALSE,No,No,101_h,Hisuian Electrode,
+FALSE,FALSE,No,No,102,Exeggcute,0102
+FALSE,FALSE,No,No,103,Exeggutor,0103
+,FALSE,No,No,103_a,Alolan Exeggutor,
+FALSE,FALSE,No,No,104,Cubone,0104
+FALSE,FALSE,No,No,105,Marowak,0105
+,FALSE,No,No,105_a,Alolan Marowak,
+FALSE,FALSE,No,No,106,Hitmonlee,0106
+FALSE,FALSE,No,No,107,Hitmonchan,0107
+FALSE,FALSE,No,No,108,Lickitung,0108
+FALSE,FALSE,No,No,109,Koffing,0109
+FALSE,FALSE,No,No,110,Weezing,0110
+,FALSE,No,No,110_g,Galarian Weezing,
+FALSE,FALSE,No,No,111_m,Rhyhorn ♂,0111
+,FALSE,No,No,111_f,Rhyhorn ♀,
+FALSE,FALSE,No,No,112_m,Rhydon ♂,0112
+,FALSE,No,No,112_f,Rhydon ♀,
+FALSE,FALSE,No,No,113,Chansey,0113
+FALSE,FALSE,No,No,114,Tangela,0114
+FALSE,FALSE,No,No,115,Kangaskhan,0115
+FALSE,FALSE,No,No,116,Horsea,0116
+FALSE,FALSE,No,No,117,Seadra,0117
+FALSE,FALSE,No,No,118_m,Goldeen ♂,0118
+,FALSE,No,No,118_f,Goldeen ♀,
+FALSE,FALSE,No,No,119_m,Seaking ♂,0119
+,FALSE,No,No,119_f,Seaking ♀,
+FALSE,FALSE,No,No,120,Staryu,0120
+FALSE,FALSE,No,No,121,Starmie,0121
+FALSE,FALSE,No,No,122,Mr. Mime,0122
+,FALSE,No,No,122_g,Galarian Mr. Mime,
+FALSE,FALSE,No,No,123_m,Scyther ♂,0123
+,FALSE,No,No,123_f,Scyther ♀,
+FALSE,FALSE,No,No,124,Jynx,0124
+FALSE,FALSE,No,No,125,Electabuzz,0125
+FALSE,FALSE,No,No,126,Magmar,0126
+FALSE,FALSE,No,No,127,Pinsir,0127
+FALSE,FALSE,No,No,128,Tauros,0128
+,FALSE,No,No,128_p,Paldean Tauros,
+,FALSE,No,No,128_pb,Paldean Blaze Tauros,
+,FALSE,No,No,128_pa,Paldean Aqua Tauros,
+FALSE,FALSE,No,No,129_m,Magikarp ♂,0129
+,FALSE,No,No,129_f,Magikarp ♀,
+FALSE,FALSE,No,No,130_m,Gyarados ♂,0130
+,FALSE,No,No,130_f,Gyarados ♀,
+FALSE,FALSE,No,No,131,Lapras,0131
+FALSE,FALSE,No,No,132,Ditto,0132
+FALSE,FALSE,No,No,133_m,Eevee ♂,0133
+,FALSE,No,No,133_f,Eevee ♀,
+FALSE,FALSE,No,No,134,Vaporeon,0134
+FALSE,FALSE,No,No,135,Jolteon,0135
+FALSE,FALSE,No,No,136,Flareon,0136
+FALSE,FALSE,No,No,137,Porygon,0137
+FALSE,FALSE,No,No,138,Omanyte,0138
+FALSE,FALSE,No,No,139,Omastar,0139
+FALSE,FALSE,No,No,140,Kabuto,0140
+FALSE,FALSE,No,No,141,Kabutops,0141
+FALSE,FALSE,No,No,142,Aerodactyl,0142
+FALSE,FALSE,No,No,143,Snorlax,0143
+FALSE,FALSE,No,No,144,Articuno,0144
+,FALSE,No,No,144_g,Galarian Articuno,
+FALSE,FALSE,No,No,145,Zapdos,0145
+,FALSE,No,No,145_g,Galarian Zapdos,
+FALSE,FALSE,No,No,146,Moltres,0146
+,FALSE,No,No,146_g,Galarian Moltres,
+FALSE,FALSE,No,No,147,Dratini,0147
+FALSE,FALSE,No,No,148,Dragonair,0148
+FALSE,FALSE,No,No,149,Dragonite,0149
+FALSE,FALSE,No,No,150,Mewtwo,0150
+FALSE,FALSE,No,No,151,Mew,0151
+FALSE,FALSE,No,No,152,Chikorita,0152
+FALSE,FALSE,No,No,153,Bayleef,0153
+FALSE,FALSE,No,No,154_m,Meganium ♂,0154
+,FALSE,No,No,154_f,Meganium ♀,
+FALSE,FALSE,No,No,155,Cyndaquil,0155
+FALSE,FALSE,No,No,156,Quilava,0156
+FALSE,FALSE,No,No,157,Typhlosion,0157
+,FALSE,No,No,157_h,Hisuian Typhlosion,
+FALSE,FALSE,No,No,158,Totodile,0158
+FALSE,FALSE,No,No,159,Croconaw,0159
+FALSE,FALSE,No,No,160,Feraligatr,0160
+FALSE,FALSE,No,No,161,Sentret,0161
+FALSE,FALSE,No,No,162,Furret,0162
+FALSE,FALSE,No,No,163,Hoothoot,0163
+FALSE,FALSE,No,No,164,Noctowl,0164
+FALSE,FALSE,No,No,165_m,Ledyba ♂,0165
+,FALSE,No,No,165_f,Ledyba ♀,
+FALSE,FALSE,No,No,166_m,Ledian ♂,0166
+,FALSE,No,No,166_f,Ledian ♀,
+FALSE,FALSE,No,No,167,Spinarak,0167
+FALSE,FALSE,No,No,168,Ariados,0168
+FALSE,FALSE,No,No,169,Crobat,0169
+FALSE,FALSE,No,No,170,Chinchou,0170
+FALSE,FALSE,No,No,171,Lanturn,0171
+FALSE,FALSE,No,No,172,Pichu,0172
+FALSE,FALSE,No,No,173,Cleffa,0173
+FALSE,FALSE,No,No,174,Igglybuff,0174
+FALSE,FALSE,No,No,175,Togepi,0175
+FALSE,FALSE,No,No,176,Togetic,0176
+FALSE,FALSE,No,No,177,Natu,0177
+FALSE,FALSE,No,No,178_m,Xatu ♂,0178
+,FALSE,No,No,178_f,Xatu ♀,
+FALSE,FALSE,No,No,179,Mareep,0179
+FALSE,FALSE,No,No,180,Flaaffy,0180
+FALSE,FALSE,No,No,181,Ampharos,0181
+FALSE,FALSE,No,No,182,Bellossom,0182
+FALSE,FALSE,No,No,183,Marill,0183
+FALSE,FALSE,No,No,184,Azumarill,0184
+FALSE,FALSE,No,No,185_m,Sudowoodo ♂,0185
+,FALSE,No,No,185_f,Sudowoodo ♀,
+FALSE,FALSE,No,No,186_m,Politoed ♂,0186
+,FALSE,No,No,186_f,Politoed ♀,
+FALSE,FALSE,No,No,187,Hoppip,0187
+FALSE,FALSE,No,No,188,Skiploom,0188
+FALSE,FALSE,No,No,189,Jumpluff,0189
+FALSE,FALSE,No,No,190_m,Aipom ♂,0190
+,FALSE,No,No,190_f,Aipom ♀,
+FALSE,FALSE,No,No,191,Sunkern,0191
+FALSE,FALSE,No,No,192,Sunflora,0192
+FALSE,FALSE,No,No,193,Yanma,0193
+FALSE,FALSE,No,No,194_m,Wooper ♂,0194
+,FALSE,No,No,194_f,Wooper ♀,
+,FALSE,No,No,194_p,Paldean Wooper,
+FALSE,FALSE,No,No,195_m,Quagsire ♂,0195
+,FALSE,No,No,195_f,Quagsire ♀,
+FALSE,FALSE,No,No,196,Espeon,0196
+FALSE,FALSE,No,No,197,Umbreon,0197
+FALSE,FALSE,No,No,198_m,Murkrow ♂,0198
+,FALSE,No,No,198_f,Murkrow ♀,
+FALSE,FALSE,No,No,199,Slowking,0199
+,FALSE,No,No,199_g,Galarian Slowking,
+FALSE,FALSE,No,No,200,Misdreavus,0200
+FALSE,FALSE,No,No,201_a,Unown A,0201
+,FALSE,No,No,201_b,Unown B,
+,FALSE,No,No,201_c,Unown C,
+,FALSE,No,No,201_d,Unown D,
+,FALSE,No,No,201_e,Unown E,
+,FALSE,No,No,201_f,Unown F,
+,FALSE,No,No,201_g,Unown G,
+,FALSE,No,No,201_h,Unown H,
+,FALSE,No,No,201_i,Unown I,
+,FALSE,No,No,201_j,Unown J,
+,FALSE,No,No,201_k,Unown K,
+,FALSE,No,No,201_l,Unown L,
+,FALSE,No,No,201_m,Unown M,
+,FALSE,No,No,201_n,Unown N,
+,FALSE,No,No,201_o,Unown O,
+,FALSE,No,No,201_p,Unown P,
+,FALSE,No,No,201_q,Unown Q,
+,FALSE,No,No,201_r,Unown R,
+,FALSE,No,No,201_s,Unown S,
+,FALSE,No,No,201_t,Unown T,
+,FALSE,No,No,201_u,Unown U,
+,FALSE,No,No,201_v,Unown V,
+,FALSE,No,No,201_w,Unown W,
+,FALSE,No,No,201_x,Unown X,
+,FALSE,No,No,201_y,Unown Y,
+,FALSE,No,No,201_z,Unown Z,
+,FALSE,No,No,201_em,Unown !,
+,FALSE,No,No,201_qm,Unown ?,
+FALSE,FALSE,No,No,202_m,Wobbuffet ♂,0202
+,FALSE,No,No,202_f,Wobbuffet ♀,
+FALSE,FALSE,No,No,203_m,Girafarig ♂,0203
+,FALSE,No,No,203_f,Girafarig ♀,
+FALSE,FALSE,No,No,204,Pineco,0204
+FALSE,FALSE,No,No,205,Forretress,0205
+FALSE,FALSE,No,No,206,Dunsparce,0206
+FALSE,FALSE,No,No,207_m,Gligar ♂,0207
+,FALSE,No,No,207_f,Gligar ♀,
+FALSE,FALSE,No,No,208_m,Steelix ♂,0208
+,FALSE,No,No,208_f,Steelix ♀,
+FALSE,FALSE,No,No,209,Snubbull,0209
+FALSE,FALSE,No,No,210,Granbull,0210
+FALSE,FALSE,No,No,211,Qwilfish,0211
+,FALSE,No,No,211_h,Hisuian Qwilfish,
+FALSE,FALSE,No,No,212_m,Scizor ♂,0212
+,FALSE,No,No,212_f,Scizor ♀,
+FALSE,FALSE,No,No,213,Shuckle,0213
+FALSE,FALSE,No,No,214_m,Heracross ♂,0214
+,FALSE,No,No,214_f,Heracross ♀,
+FALSE,FALSE,No,No,215_m,Sneasel ♂,0215
+,FALSE,No,No,215_f,Sneasel ♀,
+,FALSE,No,No,215_hm,Hisuian Sneasel ♂,
+,FALSE,No,No,215_hf,Hisuian Sneasel ♀,
+FALSE,FALSE,No,No,216,Teddiursa,0216
+FALSE,FALSE,No,No,217_m,Ursaring ♂,0217
+,FALSE,No,No,217_f,Ursaring ♀,
+FALSE,FALSE,No,No,218,Slugma,0218
+FALSE,FALSE,No,No,219,Magcargo,0219
+FALSE,FALSE,No,No,220,Swinub,0220
+FALSE,FALSE,No,No,221_m,Piloswine ♂,0221
+,FALSE,No,No,221_f,Piloswine ♀,
+FALSE,FALSE,No,No,222,Corsola,0222
+,FALSE,No,No,222_g,Galarian Corsola,
+FALSE,FALSE,No,No,223,Remoraid,0223
+FALSE,FALSE,No,No,224_m,Octillery ♂,0224
+,FALSE,No,No,224_f,Octillery ♀,
+FALSE,FALSE,No,No,225,Delibird,0225
+FALSE,FALSE,No,No,226,Mantine,0226
+FALSE,FALSE,No,No,227,Skarmory,0227
+FALSE,FALSE,No,No,228,Houndour,0228
+FALSE,FALSE,No,No,229_m,Houndoom ♂,0229
+,FALSE,No,No,229_f,Houndoom ♀,
+FALSE,FALSE,No,No,230,Kingdra,0230
+FALSE,FALSE,No,No,231,Phanpy,0231
+FALSE,FALSE,No,No,232_m,Donphan ♂,0232
+,FALSE,No,No,232_f,Donphan ♀,
+FALSE,FALSE,No,No,233,Porygon2,0233
+FALSE,FALSE,No,No,234,Stantler,0234
+FALSE,FALSE,No,No,235,Smeargle,0235
+FALSE,FALSE,No,No,236,Tyrogue,0236
+FALSE,FALSE,No,No,237,Hitmontop,0237
+FALSE,FALSE,No,No,238,Smoochum,0238
+FALSE,FALSE,No,No,239,Elekid,0239
+FALSE,FALSE,No,No,240,Magby,0240
+FALSE,FALSE,No,No,241,Miltank,0241
+FALSE,FALSE,No,No,242,Blissey,0242
+FALSE,FALSE,No,No,243,Raikou,0243
+FALSE,FALSE,No,No,244,Entei,0244
+FALSE,FALSE,No,No,245,Suicune,0245
+FALSE,FALSE,No,No,246,Larvitar,0246
+FALSE,FALSE,No,No,247,Pupitar,0247
+FALSE,FALSE,No,No,248,Tyranitar,0248
+FALSE,FALSE,No,No,249,Lugia,0249
+FALSE,FALSE,No,No,250,Ho-Oh,0250
+FALSE,FALSE,No,No,251,Celebi,0251
+FALSE,FALSE,No,No,252,Treecko,0252
+FALSE,FALSE,No,No,253,Grovyle,0253
+FALSE,FALSE,No,No,254,Sceptile,0254
+FALSE,FALSE,No,No,255_m,Torchic ♂,0255
+,FALSE,No,No,255_f,Torchic ♀,
+FALSE,FALSE,No,No,256_m,Combusken ♂,0256
+,FALSE,No,No,256_f,Combusken ♀,
+FALSE,FALSE,No,No,257_m,Blaziken ♂,0257
+,FALSE,No,No,257_f,Blaziken ♀,
+FALSE,FALSE,No,No,258,Mudkip,0258
+FALSE,FALSE,No,No,259,Marshtomp,0259
+FALSE,FALSE,No,No,260,Swampert,0260
+FALSE,FALSE,No,No,261,Poochyena,0261
+FALSE,FALSE,No,No,262,Mightyena,0262
+FALSE,FALSE,No,No,263,Zigzagoon,0263
+,FALSE,No,No,263_g,Galarian Zigzagoon,
+FALSE,FALSE,No,No,264,Linoone,0264
+,FALSE,No,No,264_g,Galarian Linoone,
+FALSE,FALSE,No,No,265,Wurmple,0265
+FALSE,FALSE,No,No,266,Silcoon,0266
+FALSE,FALSE,No,No,267_m,Beautifly ♂,0267
+,FALSE,No,No,267_f,Beautifly ♀,
+FALSE,FALSE,No,No,268,Cascoon,0268
+FALSE,FALSE,No,No,269_m,Dustox ♂,0269
+,FALSE,No,No,269_f,Dustox ♀,
+FALSE,FALSE,No,No,270,Lotad,0270
+FALSE,FALSE,No,No,271,Lombre,0271
+FALSE,FALSE,No,No,272_m,Ludicolo ♂,0272
+,FALSE,No,No,272_f,Ludicolo ♀,
+FALSE,FALSE,No,No,273,Seedot,0273
+FALSE,FALSE,No,No,274_m,Nuzleaf ♂,0274
+,FALSE,No,No,274_f,Nuzleaf ♀,
+FALSE,FALSE,No,No,275_m,Shiftry ♂,0275
+,FALSE,No,No,275_f,Shiftry ♀,
+FALSE,FALSE,No,No,276,Taillow,0276
+FALSE,FALSE,No,No,277,Swellow,0277
+FALSE,FALSE,No,No,278,Wingull,0278
+FALSE,FALSE,No,No,279,Pelipper,0279
+FALSE,FALSE,No,No,280,Ralts,0280
+FALSE,FALSE,No,No,281,Kirlia,0281
+FALSE,FALSE,No,No,282,Gardevoir,0282
+FALSE,FALSE,No,No,283,Surskit,0283
+FALSE,FALSE,No,No,284,Masquerain,0284
+FALSE,FALSE,No,No,285,Shroomish,0285
+FALSE,FALSE,No,No,286,Breloom,0286
+FALSE,FALSE,No,No,287,Slakoth,0287
+FALSE,FALSE,No,No,288,Vigoroth,0288
+FALSE,FALSE,No,No,289,Slaking,0289
+FALSE,FALSE,No,No,290,Nincada,0290
+FALSE,FALSE,No,No,291,Ninjask,0291
+FALSE,FALSE,No,No,292,Shedinja,0292
+FALSE,FALSE,No,No,293,Whismur,0293
+FALSE,FALSE,No,No,294,Loudred,0294
+FALSE,FALSE,No,No,295,Exploud,0295
+FALSE,FALSE,No,No,296,Makuhita,0296
+FALSE,FALSE,No,No,297,Hariyama,0297
+FALSE,FALSE,No,No,298,Azurill,0298
+FALSE,FALSE,No,No,299,Nosepass,0299
+FALSE,FALSE,No,No,300,Skitty,0300
+FALSE,FALSE,No,No,301,Delcatty,0301
+FALSE,FALSE,No,No,302,Sableye,0302
+FALSE,FALSE,No,No,303,Mawile,0303
+FALSE,FALSE,No,No,304,Aron,0304
+FALSE,FALSE,No,No,305,Lairon,0305
+FALSE,FALSE,No,No,306,Aggron,0306
+FALSE,FALSE,No,No,307_m,Meditite ♂,0307
+,FALSE,No,No,307_f,Meditite ♀,
+FALSE,FALSE,No,No,308_m,Medicham ♂,0308
+,FALSE,No,No,308_f,Medicham ♀,
+FALSE,FALSE,No,No,309,Electrike,0309
+FALSE,FALSE,No,No,310,Manectric,0310
+FALSE,FALSE,No,No,311,Plusle,0311
+FALSE,FALSE,No,No,312,Minun,0312
+FALSE,FALSE,No,No,313,Volbeat,0313
+FALSE,FALSE,No,No,314,Illumise,0314
+FALSE,FALSE,No,No,315_m,Roselia ♂,0315
+,FALSE,No,No,315_f,Roselia ♀,
+FALSE,FALSE,No,No,316_m,Gulpin ♂,0316
+,FALSE,No,No,316_f,Gulpin ♀,
+FALSE,FALSE,No,No,317_m,Swalot ♂,0317
+,FALSE,No,No,317_f,Swalot ♀,
+FALSE,FALSE,No,No,318,Carvanha,0318
+FALSE,FALSE,No,No,319,Sharpedo,0319
+FALSE,FALSE,No,No,320,Wailmer,0320
+FALSE,FALSE,No,No,321,Wailord,0321
+FALSE,FALSE,No,No,322_m,Numel ♂,0322
+,FALSE,No,No,322_f,Numel ♀,
+FALSE,FALSE,No,No,323_m,Camerupt ♂,0323
+,FALSE,No,No,323_f,Camerupt ♀,
+FALSE,FALSE,No,No,324,Torkoal,0324
+FALSE,FALSE,No,No,325,Spoink,0325
+FALSE,FALSE,No,No,326,Grumpig,0326
+FALSE,FALSE,No,No,327,Spinda,0327
+FALSE,FALSE,No,No,328,Trapinch,0328
+FALSE,FALSE,No,No,329,Vibrava,0329
+FALSE,FALSE,No,No,330,Flygon,0330
+FALSE,FALSE,No,No,331,Cacnea,0331
+FALSE,FALSE,No,No,332_m,Cacturne ♂,0332
+,FALSE,No,No,332_f,Cacturne ♀,
+FALSE,FALSE,No,No,333,Swablu,0333
+FALSE,FALSE,No,No,334,Altaria,0334
+FALSE,FALSE,No,No,335,Zangoose,0335
+FALSE,FALSE,No,No,336,Seviper,0336
+FALSE,FALSE,No,No,337,Lunatone,0337
+FALSE,FALSE,No,No,338,Solrock,0338
+FALSE,FALSE,No,No,339,Barboach,0339
+FALSE,FALSE,No,No,340,Whiscash,0340
+FALSE,FALSE,No,No,341,Corphish,0341
+FALSE,FALSE,No,No,342,Crawdaunt,0342
+FALSE,FALSE,No,No,343,Baltoy,0343
+FALSE,FALSE,No,No,344,Claydol,0344
+FALSE,FALSE,No,No,345,Lileep,0345
+FALSE,FALSE,No,No,346,Cradily,0346
+FALSE,FALSE,No,No,347,Anorith,0347
+FALSE,FALSE,No,No,348,Armaldo,0348
+FALSE,FALSE,No,No,349,Feebas,0349
+FALSE,FALSE,No,No,350_m,Milotic ♂,0350
+,FALSE,No,No,350_f,Milotic ♀,
+FALSE,FALSE,No,No,351,Castform,0351
+FALSE,FALSE,No,No,352,Kecleon,0352
+FALSE,FALSE,No,No,353,Shuppet,0353
+FALSE,FALSE,No,No,354,Banette,0354
+FALSE,FALSE,No,No,355,Duskull,0355
+FALSE,FALSE,No,No,356,Dusclops,0356
+FALSE,FALSE,No,No,357,Tropius,0357
+FALSE,FALSE,No,No,358,Chimecho,0358
+FALSE,FALSE,No,No,359,Absol,0359
+FALSE,FALSE,No,No,360,Wynaut,0360
+FALSE,FALSE,No,No,361,Snorunt,0361
+FALSE,FALSE,No,No,362,Glalie,0362
+FALSE,FALSE,No,No,363,Spheal,0363
+FALSE,FALSE,No,No,364,Sealeo,0364
+FALSE,FALSE,No,No,365,Walrein,0365
+FALSE,FALSE,No,No,366,Clamperl,0366
+FALSE,FALSE,No,No,367,Huntail,0367
+FALSE,FALSE,No,No,368,Gorebyss,0368
+FALSE,FALSE,No,No,369_m,Relicanth ♂,0369
+,FALSE,No,No,369_f,Relicanth ♀,
+FALSE,FALSE,No,No,370,Luvdisc,0370
+FALSE,FALSE,No,No,371,Bagon,0371
+FALSE,FALSE,No,No,372,Shelgon,0372
+FALSE,FALSE,No,No,373,Salamence,0373
+FALSE,FALSE,No,No,374,Beldum,0374
+FALSE,FALSE,No,No,375,Metang,0375
+FALSE,FALSE,No,No,376,Metagross,0376
+FALSE,FALSE,No,No,377,Regirock,0377
+FALSE,FALSE,No,No,378,Regice,0378
+FALSE,FALSE,No,No,379,Registeel,0379
+FALSE,FALSE,No,No,380,Latias,0380
+FALSE,FALSE,No,No,381,Latios,0381
+FALSE,FALSE,No,No,382,Kyogre,0382
+FALSE,FALSE,No,No,383,Groudon,0383
+FALSE,FALSE,No,No,384,Rayqyaza,0384
+FALSE,FALSE,No,No,385,Jirachi,0385
+FALSE,FALSE,No,No,386_n,Normal Forme Deoxys,0386
+,FALSE,No,No,386_a,Attack Forme Deoxys,
+,FALSE,No,No,386_d,Defense Forme Deoxys,
+,FALSE,No,No,386_s,Speed Forme Deoxys,
+FALSE,FALSE,No,No,387,Turtwig,0387
+FALSE,FALSE,No,No,388,Grotle,0388
+FALSE,FALSE,No,No,389,Torterra,0389
+FALSE,FALSE,No,No,390,Chimchar,0390
+FALSE,FALSE,No,No,391,Monferno,0391
+FALSE,FALSE,No,No,392,Infernape,0392
+FALSE,FALSE,No,No,393,Piplup,0393
+FALSE,FALSE,No,No,394,Prinplup,0394
+FALSE,FALSE,No,No,395,Empoleon,0395
+FALSE,FALSE,No,No,396_m,Starly ♂,0396
+,FALSE,No,No,396_f,Starly ♀,
+FALSE,FALSE,No,No,397_m,Staravia ♂,0397
+,FALSE,No,No,397_f,Staravia ♀,
+FALSE,FALSE,No,No,398_m,Staraptor ♂,0398
+,FALSE,No,No,398_f,Staraptor ♀,
+FALSE,FALSE,No,No,399_m,Bidoof ♂,0399
+,FALSE,No,No,399_f,Bidoof ♀,
+FALSE,FALSE,No,No,400_m,Bibarel ♂,0400
+,FALSE,No,No,400_f,Bibarel ♀,
+FALSE,FALSE,No,No,401_m,Kricketot ♂,0401
+,FALSE,No,No,401_f,Kricketot ♀,
+FALSE,FALSE,No,No,402_m,Kricketune ♂,0402
+,FALSE,No,No,402_f,Kricketune ♀,
+FALSE,FALSE,No,No,403_m,Shinx ♂,0403
+,FALSE,No,No,403_f,Shinx ♀,
+FALSE,FALSE,No,No,404_m,Luxio ♂,0404
+,FALSE,No,No,404_f,Luxio ♀,
+FALSE,FALSE,No,No,405_m,Luxray ♂,0405
+,FALSE,No,No,405_f,Luxray ♀,
+FALSE,FALSE,No,No,406,Budew,0406
+FALSE,FALSE,No,No,407_m,Roserade ♂,0407
+,FALSE,No,No,407_f,Roserade ♀,
+FALSE,FALSE,No,No,408,Cranidos,0408
+FALSE,FALSE,No,No,409,Rampardos,0409
+FALSE,FALSE,No,No,410,Shieldon,0410
+FALSE,FALSE,No,No,411,Bastiodon,0411
+FALSE,FALSE,No,No,412_p,Plant Cloak Burmy,0412
+,FALSE,No,No,412_s,Sand Cloak Burmy,
+,FALSE,No,No,412_t,Trash Cloak Burmy,
+FALSE,FALSE,No,No,413_p,Plant Cloak Wormadam,0413
+,FALSE,No,No,413_s,Sand Cloak Wormadam,
+,FALSE,No,No,413_t,Trash Cloak Wormadam,
+FALSE,FALSE,No,No,414,Mothim,0414
+FALSE,FALSE,No,No,415_m,Combee ♂,0415
+,FALSE,No,No,415_f,Combee ♀,
+FALSE,FALSE,No,No,416,Vespiquen,0416
+FALSE,FALSE,No,No,417_m,Pachirisu ♂,0417
+,FALSE,No,No,417_f,Pachirisu ♀,
+FALSE,FALSE,No,No,418_m,Buizel ♂,0418
+,FALSE,No,No,418_f,Buizel ♀,
+FALSE,FALSE,No,No,419_m,Floatzel ♂,0419
+,FALSE,No,No,419_f,Floatzel ♀,
+FALSE,FALSE,No,No,420,Cherubi,0420
+FALSE,FALSE,No,No,421,Cherrim,0421
+FALSE,FALSE,No,No,422_w,West Sea Shellos,0422
+,FALSE,No,No,422_e,East Sea Shellos,
+FALSE,FALSE,No,No,423_w,West Sea Gastrodon,0423
+,FALSE,No,No,423_e,East Sea Gastrodon,
+FALSE,FALSE,No,No,424_m,Ambipom ♂,0424
+,FALSE,No,No,424_f,Ambipom ♀,
+FALSE,FALSE,No,No,425,Drifloon,0425
+FALSE,FALSE,No,No,426,Drifblim,0426
+FALSE,FALSE,No,No,427,Buneary,0427
+FALSE,FALSE,No,No,428,Lopunny,0428
+FALSE,FALSE,No,No,429,Mismagius,0429
+FALSE,FALSE,No,No,430,Honchkrow,0430
+FALSE,FALSE,No,No,431,Glameow,0431
+FALSE,FALSE,No,No,432,Purugly,0432
+FALSE,FALSE,No,No,433,Chingling,0433
+FALSE,FALSE,No,No,434,Stunky,0434
+FALSE,FALSE,No,No,435,Skuntank,0435
+FALSE,FALSE,No,No,436,Bronzor,0436
+FALSE,FALSE,No,No,437,Bronzong,0437
+FALSE,FALSE,No,No,438,Bonsly,0438
+FALSE,FALSE,No,No,439,Mime Jr.,0439
+FALSE,FALSE,No,No,440,Happiny,0440
+FALSE,FALSE,No,No,441,Chatot,0441
+FALSE,FALSE,No,No,442,Spiritomb,0442
+FALSE,FALSE,No,No,443_m,Gible ♂,0443
+,FALSE,No,No,443_f,Gible ♀,
+FALSE,FALSE,No,No,444_m,Gabite ♂,0444
+,FALSE,No,No,444_f,Gabite ♀,
+FALSE,FALSE,No,No,445_m,Garchomp ♂,0445
+,FALSE,No,No,445_f,Garchomp ♀,
+FALSE,FALSE,No,No,446,Munchlax,0446
+FALSE,FALSE,No,No,447,Riolu,0447
+FALSE,FALSE,No,No,448,Lucario,0448
+FALSE,FALSE,No,No,449_m,Hippopotas ♂,0449
+,FALSE,No,No,449_f,Hippopotas ♀,
+FALSE,FALSE,No,No,450_m,Hippowdon ♂,0450
+,FALSE,No,No,450_f,Hippowdon ♀,
+FALSE,FALSE,No,No,451,Skorupi,0451
+FALSE,FALSE,No,No,452,Drapion,0452
+FALSE,FALSE,No,No,453_m,Croagunk ♂,0453
+,FALSE,No,No,453_f,Croagunk ♀,
+FALSE,FALSE,No,No,454_m,Toxicroak ♂,0454
+,FALSE,No,No,454_f,Toxicroak ♀,
+FALSE,FALSE,No,No,455,Carnivine,0455
+FALSE,FALSE,No,No,456_m,Finneon ♂,0456
+,FALSE,No,No,456_f,Finneon ♀,
+FALSE,FALSE,No,No,457_m,Lumineon ♂,0457
+,FALSE,No,No,457_f,Lumineon ♀,
+FALSE,FALSE,No,No,458,Mantyke,0458
+FALSE,FALSE,No,No,459_m,Snover ♂,0459
+,FALSE,No,No,459_f,Snover ♀,
+FALSE,FALSE,No,No,460_m,Abomasnow ♂,0460
+,FALSE,No,No,460_f,Abomasnow ♀,
+FALSE,FALSE,No,No,461_m,Weavile ♂,0461
+,FALSE,No,No,461_f,Weavile ♀,
+FALSE,FALSE,No,No,462,Magnezone,0462
+FALSE,FALSE,No,No,463,Lickilicky,0463
+FALSE,FALSE,No,No,464_m,Rhyperior ♂,0464
+,FALSE,No,No,464_f,Rhyperior ♀,
+FALSE,FALSE,No,No,465_m,Tangrowth ♂,0465
+,FALSE,No,No,465_f,Tangrowth ♀,
+FALSE,FALSE,No,No,466,Electivire,0466
+FALSE,FALSE,No,No,467,Magmortar,0467
+FALSE,FALSE,No,No,468,Togekiss,0468
+FALSE,FALSE,No,No,469,Yanmega,0469
+FALSE,FALSE,No,No,470,Leafeon,0470
+FALSE,FALSE,No,No,471,Glaceon,0471
+FALSE,FALSE,No,No,472,Gliscor,0472
+FALSE,FALSE,No,No,473_m,Mamoswine ♂,0473
+,FALSE,No,No,473_f,Mamoswine ♀,
+FALSE,FALSE,No,No,474,Porygon-Z,0474
+FALSE,FALSE,No,No,475,Gallade,0475
+FALSE,FALSE,No,No,476,Probopass,0476
+FALSE,FALSE,No,No,477,Dusknoir,0477
+FALSE,FALSE,No,No,478,Froslass,0478
+FALSE,FALSE,No,No,479,Rotom,0479
+,FALSE,No,No,479_f,Heat Rotom,
+,FALSE,No,No,479_h,Wash Rotom,
+,FALSE,No,No,479_m,Frost Rotom,
+,FALSE,No,No,479_fa,Fan Rotom,
+,FALSE,No,No,479_w,Mow Rotom,
+FALSE,FALSE,No,No,480,Uxie,0480
+FALSE,FALSE,No,No,481,Mesprit,0481
+FALSE,FALSE,No,No,482,Azelf,0482
+FALSE,FALSE,No,No,483,Dialga,0483
+FALSE,FALSE,No,No,484,Palkia,0484
+FALSE,FALSE,No,No,485,Heatran,0485
+FALSE,FALSE,No,No,486,Regigigas,0486
+FALSE,FALSE,No,No,487,Giratina,0487
+FALSE,FALSE,No,No,488,Cresselia,0488
+FALSE,FALSE,No,No,489,Phione,0489
+FALSE,FALSE,No,No,490,Manaphy,0490
+FALSE,FALSE,No,No,491,Darkrai,0491
+FALSE,FALSE,No,No,492_l,Land Forme Shaymin,0492
+,FALSE,No,No,492_s,Sky Forme Shaymin,
+FALSE,FALSE,No,No,493,Arceus,0493
+,,Unavailable,Unavailable,494,Victini,0494
+FALSE,FALSE,No,No,495,Snivy,0495
+FALSE,FALSE,No,No,496,Servine,0496
+FALSE,FALSE,No,No,497,Serperior,0497
+FALSE,FALSE,No,No,498,Tepig,0498
+FALSE,FALSE,No,No,499,Pignite,0499
+FALSE,FALSE,No,No,500,Emboar,0500
+FALSE,FALSE,No,No,501,Oshawott,0501
+FALSE,FALSE,No,No,502,Dewott,0502
+FALSE,FALSE,No,No,503,Samurott,0503
+,FALSE,No,No,503_h,Hisuian Samurott,
+FALSE,FALSE,No,No,504,Patrat,0504
+FALSE,FALSE,No,No,505,Watchog,0505
+FALSE,FALSE,No,No,506,Lillipup,0506
+FALSE,FALSE,No,No,507,Herdier,0507
+FALSE,FALSE,No,No,508,Stoutland,0508
+FALSE,FALSE,No,No,509,Purrloin,0509
+FALSE,FALSE,No,No,510,Liepard,0510
+FALSE,FALSE,No,No,511,Pansage,0511
+FALSE,FALSE,No,No,512,Simisage,0512
+FALSE,FALSE,No,No,513,Pansear,0513
+FALSE,FALSE,No,No,514,Simisear,0514
+FALSE,FALSE,No,No,515,Panpour,0515
+FALSE,FALSE,No,No,516,Simipour,0516
+FALSE,FALSE,No,No,517,Munna,0517
+FALSE,FALSE,No,No,518,Musharna,0518
+FALSE,FALSE,No,No,519,Pidove,0519
+FALSE,FALSE,No,No,520,Tranquill,0520
+FALSE,FALSE,No,No,521_m,Unfezant ♂,0521
+,FALSE,No,No,521_f,Unfezant ♀,
+FALSE,FALSE,No,No,522,Blitzle,0522
+FALSE,FALSE,No,No,523,Zebstrika,0523
+FALSE,FALSE,No,No,524,Roggenrola,0524
+FALSE,FALSE,No,No,525,Boldore,0525
+FALSE,FALSE,No,No,526,Gigalith,0526
+FALSE,FALSE,No,No,527,Woobat,0527
+FALSE,FALSE,No,No,528,Swoobat,0528
+FALSE,FALSE,No,No,529,Drilbur,0529
+FALSE,FALSE,No,No,530,Excadrill,0530
+FALSE,FALSE,No,No,531,Audino,0531
+FALSE,FALSE,No,No,532,Timburr,0532
+FALSE,FALSE,No,No,533,Gurdurr,0533
+FALSE,FALSE,No,No,534,Conkeldurr,0534
+FALSE,FALSE,No,No,535,Tympole,0535
+FALSE,FALSE,No,No,536,Palpitoad,0536
+FALSE,FALSE,No,No,537,Seismitoad,0537
+FALSE,FALSE,No,No,538,Throh,0538
+FALSE,FALSE,No,No,539,Sawk,0539
+FALSE,FALSE,No,No,540,Sewaddle,0540
+FALSE,FALSE,No,No,541,Swadloon,0541
+FALSE,FALSE,No,No,542,Leavanny,0542
+FALSE,FALSE,No,No,543,Venipede,0543
+FALSE,FALSE,No,No,544,Whirlipede,0544
+FALSE,FALSE,No,No,545,Scolipede,0545
+FALSE,FALSE,No,No,546,Cottonee,0546
+FALSE,FALSE,No,No,547,Whimsicott,0547
+FALSE,FALSE,No,No,548,Petilil,0548
+FALSE,FALSE,No,No,549,Lilligant,0549
+,FALSE,No,No,549_h,Hisuian Lilligant,
+FALSE,FALSE,No,No,550_r,Red Basculin,0550
+,FALSE,No,No,550_b,Blue Basculin,
+,FALSE,No,No,550_w,White Basculin,
+FALSE,FALSE,No,No,551,Sandile,0551
+FALSE,FALSE,No,No,552,Krokorok,0552
+FALSE,FALSE,No,No,553,Krookodile,0553
+FALSE,FALSE,No,No,554,Darumaka,0554
+,FALSE,No,No,554_g,Galarian Darumaka,
+FALSE,FALSE,No,No,555,Darmanitan,0555
+,FALSE,No,No,555_g,Galarian Darmanitan,
+FALSE,FALSE,No,No,556,Maractus,0556
+FALSE,FALSE,No,No,557,Dwebble,0557
+FALSE,FALSE,No,No,558,Crustle,0558
+FALSE,FALSE,No,No,559,Scraggy,0559
+FALSE,FALSE,No,No,560,Scrafty,0560
+FALSE,FALSE,No,No,561,Sigilyph,0561
+FALSE,FALSE,No,No,562,Yamask,0562
+,FALSE,No,No,562_g,Galarian Yamask,
+FALSE,FALSE,No,No,563,Cofagrigus,0563
+FALSE,FALSE,No,No,564,Tirtouga,0564
+FALSE,FALSE,No,No,565,Carracosta,0565
+FALSE,FALSE,No,No,566,Archen,0566
+FALSE,FALSE,No,No,567,Archeops,0567
+FALSE,FALSE,No,No,568,Trubbish,0568
+FALSE,FALSE,No,No,569,Garbodor,0569
+FALSE,FALSE,No,No,570,Zorua,0570
+,FALSE,No,No,570_h,Hisuian Zorua,
+FALSE,FALSE,No,No,571,Zoroark,0571
+,FALSE,No,No,571_h,Hisuian Zoroark,
+FALSE,FALSE,No,No,572,Minccino,0572
+FALSE,FALSE,No,No,573,Cinccino,0573
+FALSE,FALSE,No,No,574,Gothita,0574
+FALSE,FALSE,No,No,575,Gothorita,0575
+FALSE,FALSE,No,No,576,Gothitelle,0576
+FALSE,FALSE,No,No,577,Solosis,0577
+FALSE,FALSE,No,No,578,Duosion,0578
+FALSE,FALSE,No,No,579,Reuniclus,0579
+FALSE,FALSE,No,No,580,Ducklett,0580
+FALSE,FALSE,No,No,581,Swanna,0581
+FALSE,FALSE,No,No,582,Vanillite,0582
+FALSE,FALSE,No,No,583,Vanillish,0583
+FALSE,FALSE,No,No,584,Vanilluxe,0584
+FALSE,FALSE,No,No,585_s,Spring Deerling,0585
+,FALSE,No,No,585_su,Summer Deerling,
+,FALSE,No,No,585_a,Autumn Deerling,
+,FALSE,No,No,585_w,Winter Deerling,
+FALSE,FALSE,No,No,586_s,Spring Sawsbuck,0586
+,FALSE,No,No,586_su,Summer Sawsbuck,
+,FALSE,No,No,586_a,Autumn Sawsbuck,
+,FALSE,No,No,586_w,Winter Sawsbuck,
+FALSE,FALSE,No,No,587,Emolga,0587
+FALSE,FALSE,No,No,588,Karrablast,0588
+FALSE,FALSE,No,No,589,Escavalier,0589
+FALSE,FALSE,No,No,590,Foongus,0590
+FALSE,FALSE,No,No,591,Amoonguss,0591
+FALSE,FALSE,No,No,592_m,Frillish ♂,0592
+,FALSE,No,No,592_f,Frillish ♀,
+FALSE,FALSE,No,No,593_m,Jellicent ♂,0593
+,FALSE,No,No,593_f,Jellicent ♀,
+FALSE,FALSE,No,No,594,Alomomola,0594
+FALSE,FALSE,No,No,595,Joltik,0595
+FALSE,FALSE,No,No,596,Galvantula,0596
+FALSE,FALSE,No,No,597,Ferroseed,0597
+FALSE,FALSE,No,No,598,Ferrothorn,0598
+FALSE,FALSE,No,No,599,Klink,0599
+FALSE,FALSE,No,No,600,Klang,0600
+FALSE,FALSE,No,No,601,Klinklang,0601
+FALSE,FALSE,No,No,602,Tynamo,0602
+FALSE,FALSE,No,No,603,Eelektrik,0603
+FALSE,FALSE,No,No,604,Eelektross,0604
+FALSE,FALSE,No,No,605,Elgyem,0605
+FALSE,FALSE,No,No,606,Beheeyem,0606
+FALSE,FALSE,No,No,607,Litwick,0607
+FALSE,FALSE,No,No,608,Lampent,0608
+FALSE,FALSE,No,No,609,Chandelure,0609
+FALSE,FALSE,No,No,610,Axew,0610
+FALSE,FALSE,No,No,611,Fraxure,0611
+FALSE,FALSE,No,No,612,Haxorus,0612
+FALSE,FALSE,No,No,613,Cubchoo,0613
+FALSE,FALSE,No,No,614,Beartic,0614
+FALSE,FALSE,No,No,615,Cryogonal,0615
+FALSE,FALSE,No,No,616,Shelmet,0616
+FALSE,FALSE,No,No,617,Accelgor,0617
+FALSE,FALSE,No,No,618,Stunfisk,0618
+,FALSE,No,No,618_g,Galarian Stunfisk,
+FALSE,FALSE,No,No,619,Mienfoo,0619
+FALSE,FALSE,No,No,620,Mienshao,0620
+FALSE,FALSE,No,No,621,Druddigon,0621
+FALSE,FALSE,No,No,622,Golett,0622
+FALSE,FALSE,No,No,623,Golurk,0623
+FALSE,FALSE,No,No,624,Pawniard,0624
+FALSE,FALSE,No,No,625,Bisharp,0625
+FALSE,FALSE,No,No,626,Bouffalant,0626
+FALSE,FALSE,No,No,627,Rufflet,0627
+FALSE,FALSE,No,No,628,Braviary,0628
+,FALSE,No,No,628_h,Hisuian Braviary,
+FALSE,FALSE,No,No,629,Vullaby,0629
+FALSE,FALSE,No,No,630,Mandibuzz,0630
+FALSE,FALSE,No,No,631,Heatmor,0631
+FALSE,FALSE,No,No,632,Durant,0632
+FALSE,FALSE,No,No,633,Deino,0633
+FALSE,FALSE,No,No,634,Zweilous,0634
+FALSE,FALSE,No,No,635,Hydreigon,0635
+FALSE,FALSE,No,No,636,Larvesta,0636
+FALSE,FALSE,No,No,637,Volcarona,0637
+FALSE,FALSE,No,No,638,Cobalion,0638
+FALSE,FALSE,No,No,639,Terrakion,0639
+FALSE,FALSE,No,No,640,Virizion,0640
+FALSE,FALSE,No,No,641_i,Incarnate Forme Tornadus,0641
+,FALSE,No,No,641_t,Therian Forme Tornadus,
+FALSE,FALSE,No,No,642_i,Incarnate Forme Thundurus,0642
+,FALSE,No,No,642_t,Therian Forme Thundurus,
+FALSE,FALSE,No,No,643,Reshiram,0643
+FALSE,FALSE,No,No,644,Zekrom,0644
+FALSE,FALSE,No,No,645_i,Incarnate Forme Landorus,0645
+,FALSE,No,No,645_t,Therian Forme Landorus,
+FALSE,FALSE,No,No,646,Kyurem,0646
+,,Unavailable,Unavailable,647,Keldeo,0647
+,,Unavailable,Unavailable,648,Meloetta,0648
+FALSE,FALSE,No,No,649,Genesect,0649
+FALSE,FALSE,No,No,650,Chespin,0650
+FALSE,FALSE,No,No,651,Quilladin,0651
+FALSE,FALSE,No,No,652,Chesnaught,0652
+FALSE,FALSE,No,No,653,Fennekin,0653
+FALSE,FALSE,No,No,654,Braixen,0654
+FALSE,FALSE,No,No,655,Delphox,0655
+FALSE,FALSE,No,No,656,Froakie,0656
+FALSE,FALSE,No,No,657,Frogadier,0657
+FALSE,FALSE,No,No,658,Greninja,0658
+FALSE,FALSE,No,No,659,Bunnelby,0659
+FALSE,FALSE,No,No,660,Diggersby,0660
+FALSE,FALSE,No,No,661,Fletchling,0661
+FALSE,FALSE,No,No,662,Fletchinder,0662
+FALSE,FALSE,No,No,663,Talonflame,0663
+FALSE,FALSE,No,No,664,Scatterbug,0664
+FALSE,FALSE,No,No,665,Spewpa,0665
+FALSE,FALSE,No,No,666_i,Meadow Pattern Vivillon,0666
+,FALSE,No,No,666_p,Polar Pattern Vivillon,
+,FALSE,No,No,666_t,Tundra Pattern Vivillon,
+,FALSE,No,No,666_c,Continental Pattern Vivillon,
+,FALSE,No,No,666_g,Garden Pattern Vivillon,
+,FALSE,No,No,666_e,Elegant Pattern Vivillon,
+,FALSE,No,No,666_m,Icy Snow Pattern Vivillon,
+,FALSE,No,No,666_mo,Modern Pattern Vivillon,
+,FALSE,No,No,666_ma,Marine Pattern Vivillon,
+,FALSE,No,No,666_a,Archipelago Pattern Vivillon,
+,FALSE,No,No,666_h,High Plains Pattern Vivillon,
+,FALSE,No,No,666_s,Sandstorm Pattern Vivillon,
+,FALSE,No,No,666_r,River Pattern Vivillon,
+,FALSE,No,No,666_mon,Monsoon Pattern Vivillon,
+,FALSE,No,No,666_sa,Savannah Pattern Vivillon,
+,FALSE,No,No,666_su,Sun Pattern Vivillon,
+,FALSE,No,No,666_o,Ocean Pattern Vivillon,
+,FALSE,No,No,666_j,Jungle Pattern Vivillon,
+,FALSE,No,No,666_f,Fancy Pattern Vivillon,
+,,Unavailable,Unavailable,666_pb,Poké Ball Pattern Vivillon,
+FALSE,FALSE,No,No,667,Litleo,0667
+FALSE,FALSE,No,No,668_m,Pyroar ♂,0668
+,FALSE,No,No,668_f,Pyroar ♀,
+FALSE,FALSE,No,No,669_r,Red Flower Flabébé,0669
+,FALSE,No,No,669_b,Yellow Flower Flabébé,
+,FALSE,No,No,669_o,Orange Flower Flabébé,
+,FALSE,No,No,669_w,Blue Flower Flabébé,
+,FALSE,No,No,669_y,White Flower Flabébé,
+FALSE,FALSE,No,No,670_r,Red Flower Floette,0670
+,FALSE,No,No,670_b,Yellow Flower Floette,
+,FALSE,No,No,670_o,Orange Flower Floette,
+,FALSE,No,No,670_w,Blue Flower Floette,
+,FALSE,No,No,670_y,Whtie Flower Floette,
+FALSE,FALSE,No,No,671_r,Red Flower Florges,0671
+,FALSE,No,No,671_b,Yellow Flower Florges,
+,FALSE,No,No,671_o,Orange Flower Florges,
+,FALSE,No,No,671_w,Blue Flower Florges,
+,FALSE,No,No,671_y,White Flower Florges,
+FALSE,FALSE,No,No,672,Skiddo,0672
+FALSE,FALSE,No,No,673,Gogoat,0673
+FALSE,FALSE,No,No,674,Pancham,0674
+FALSE,FALSE,No,No,675,Pangoro,0675
+FALSE,FALSE,No,No,676_n,Natural Form Furfrou,0676
+,FALSE,No,No,676_h,Heart Trim Furfrou,
+,FALSE,No,No,676_s,Star Trim Furfrou,
+,FALSE,No,No,676_d,Diamond Trim Furfrou,
+,FALSE,No,No,676_de,Debutante Trim Furfrou,
+,FALSE,No,No,676_m,Matron Trim Furfrou,
+,FALSE,No,No,676_da,Dandy Trim Furfrou,
+,FALSE,No,No,676_r,La Reine Trim Furfrou,
+,FALSE,No,No,676_k,Kabuki Trim Furfrou,
+,FALSE,No,No,676_p,Pharaoh Trim Furfrou,
+FALSE,FALSE,No,No,677,Espurr,0677
+FALSE,FALSE,No,No,678_m,Meowstic ♂,0678
+,FALSE,No,No,678_f,Meowstic ♀,
+FALSE,FALSE,No,No,679,Honedge,0679
+FALSE,FALSE,No,No,680,Doublade,0680
+FALSE,FALSE,No,No,681,Aegislash,0681
+FALSE,FALSE,No,No,682,Spritzee,0682
+FALSE,FALSE,No,No,683,Aromatisse,0683
+FALSE,FALSE,No,No,684,Swirlix,0684
+FALSE,FALSE,No,No,685,Slurpuff,0685
+FALSE,FALSE,No,No,686,Inkay,0686
+FALSE,FALSE,No,No,687,Malamar,0687
+FALSE,FALSE,No,No,688,Binacle,0688
+FALSE,FALSE,No,No,689,Barbaracle,0689
+FALSE,FALSE,No,No,690,Skrelp,0690
+FALSE,FALSE,No,No,691,Dragalge,0691
+FALSE,FALSE,No,No,692,Clauncher,0692
+FALSE,FALSE,No,No,693,Clawitzer,0693
+FALSE,FALSE,No,No,694,Helioptile,0694
+FALSE,FALSE,No,No,695,Heliolisk,0695
+FALSE,FALSE,No,No,696,Tyrunt,0696
+FALSE,FALSE,No,No,697,Tyrantrum,0697
+FALSE,FALSE,No,No,698,Amaura,0698
+FALSE,FALSE,No,No,699,Aurorus,0699
+FALSE,FALSE,No,No,700,Sylveon,0700
+FALSE,FALSE,No,No,701,Hawlucha,0701
+FALSE,FALSE,No,No,702,Dedenne,0702
+FALSE,FALSE,No,No,703,Carbink,0703
+FALSE,FALSE,No,No,704,Goomy,0704
+FALSE,FALSE,No,No,705,Sliggoo,0705
+,FALSE,No,No,705_h,Hisuian Sliggoo,
+FALSE,FALSE,No,No,706,Goodra,0706
+,FALSE,No,No,706_h,Hisuian Goodra,
+FALSE,FALSE,No,No,707,Klefki,0707
+FALSE,FALSE,No,No,708,Phantump,0708
+FALSE,FALSE,No,No,709,Trevenant,0709
+FALSE,FALSE,No,No,710_s,Small Size Pumpkaboo,0710
+,FALSE,No,No,710_a,Average Size Pumpkaboo,
+,FALSE,No,No,710_l,Large Size Pumpkaboo,
+,FALSE,No,No,710_su,Super Size Pumpkaboo,
+FALSE,FALSE,No,No,711_s,Small Size Gourgeist,0711
+,FALSE,No,No,711_a,Average Size Gourgeist,
+,FALSE,No,No,711_l,Large Size Gourgeist,
+,FALSE,No,No,711_su,Super Size Gourgeist,
+FALSE,FALSE,No,No,712,Bergmite,0712
+FALSE,FALSE,No,No,713,Avalugg,0713
+,FALSE,No,No,713_h,Hisuian Avalugg,
+FALSE,FALSE,No,No,714,Noibat,0714
+FALSE,FALSE,No,No,715,Noivern,0715
+FALSE,FALSE,No,No,716,Xerneas,0716
+FALSE,FALSE,No,No,717,Yveltal,0717
+FALSE,FALSE,No,No,718_10,10% Forme Zygarde,0718
+,FALSE,No,No,718_50,50% Forme Zygarde,
+FALSE,FALSE,No,No,719,Diancie,0719
+,,Unavailable,Unavailable,720,Hoopa,0720
+,,Unavailable,Unavailable,721,Volcanion,0721
+FALSE,FALSE,No,No,722,Rowlet,0722
+FALSE,FALSE,No,No,723,Dartrix,0723
+FALSE,FALSE,No,No,724,Decidueye,0724
+,FALSE,No,No,724_h,Hisuian Decidueye,
+FALSE,FALSE,No,No,725,Litten,0725
+FALSE,FALSE,No,No,726,Torracat,0726
+FALSE,FALSE,No,No,727,Incineroar,0727
+FALSE,FALSE,No,No,728,Popplio,0728
+FALSE,FALSE,No,No,729,Brionne,0729
+FALSE,FALSE,No,No,730,Primarina,0730
+FALSE,FALSE,No,No,731,Pikipek,0731
+FALSE,FALSE,No,No,732,Trumbeak,0732
+FALSE,FALSE,No,No,733,Toucannon,0733
+FALSE,FALSE,No,No,734,Yungoos,0734
+FALSE,FALSE,No,No,735,Gumshoos,0735
+FALSE,FALSE,No,No,736,Grubbin,0736
+FALSE,FALSE,No,No,737,Charjabug,0737
+FALSE,FALSE,No,No,738,Vikavolt,0738
+FALSE,FALSE,No,No,739,Crabrawler,0739
+FALSE,FALSE,No,No,740,Crabominable,0740
+FALSE,FALSE,No,No,741_b,Baile Style Oricorio,0741
+,FALSE,No,No,741_p,Pom-Pom Style Oricorio,
+,FALSE,No,No,741_pa,Pa'u Style Oricorio,
+,FALSE,No,No,741_s,Sensu Style Oricorio,
+FALSE,FALSE,No,No,742,Cutiefly,0742
+FALSE,FALSE,No,No,743,Ribombee,0743
+FALSE,FALSE,No,No,744,Rockruff,0744
+FALSE,FALSE,No,No,745_m,Midday Lycanroc,0745
+,FALSE,No,No,745_mi,Midnight Lycanroc,
+,FALSE,No,No,745_d,Dusk Lycanroc,
+FALSE,FALSE,No,No,746,Wishiwashi,0746
+FALSE,FALSE,No,No,747,Mareanie,0747
+FALSE,FALSE,No,No,748,Toxapex,0748
+FALSE,FALSE,No,No,749,Mudbray,0749
+FALSE,FALSE,No,No,750,Mudsdale,0750
+FALSE,FALSE,No,No,751,Dewpider,0751
+FALSE,FALSE,No,No,752,Araquanid,0752
+FALSE,FALSE,No,No,753,Fomantis,0753
+FALSE,FALSE,No,No,754,Lurantis,0754
+FALSE,FALSE,No,No,755,Morelull,0755
+FALSE,FALSE,No,No,756,Shiinotic,0756
+FALSE,FALSE,No,No,757,Salandit,0757
+FALSE,FALSE,No,No,758,Salazzle,0758
+FALSE,FALSE,No,No,759,Stufful,0759
+FALSE,FALSE,No,No,760,Bewear,0760
+FALSE,FALSE,No,No,761,Bounsweet,0761
+FALSE,FALSE,No,No,762,Steenee,0762
+FALSE,FALSE,No,No,763,Tsareena,0763
+FALSE,FALSE,No,No,764,Comfey,0764
+FALSE,FALSE,No,No,765,Oranguru,0765
+FALSE,FALSE,No,No,766,Passimian,0766
+FALSE,FALSE,No,No,767,Wimpod,0767
+FALSE,FALSE,No,No,768,Golisopod,0768
+FALSE,FALSE,No,No,769,Sandygast,0769
+FALSE,FALSE,No,No,770,Palossand,0770
+FALSE,FALSE,No,No,771,Pyukumuku,0771
+FALSE,FALSE,No,No,772,Type: Null,0772
+FALSE,FALSE,No,No,773,Silvally,0773
+FALSE,FALSE,No,No,774,Minior,0774
+FALSE,FALSE,No,No,775,Komala,0775
+FALSE,FALSE,No,No,776,Turtonator,0776
+FALSE,FALSE,No,No,777,Togedemaru,0777
+FALSE,FALSE,No,No,778,Mimikyu,0778
+FALSE,FALSE,No,No,779,Bruxish,0779
+FALSE,FALSE,No,No,780,Drampa,0780
+FALSE,FALSE,No,No,781,Dhelmise,0781
+FALSE,FALSE,No,No,782,Jangmo-o,0782
+FALSE,FALSE,No,No,783,Hakamo-o,0783
+FALSE,FALSE,No,No,784,Kommo-o,0784
+FALSE,FALSE,No,No,785,Tapu Koko,0785
+FALSE,FALSE,No,No,786,Tapu Lele,0786
+FALSE,FALSE,No,No,787,Tapu Bulu,0787
+FALSE,FALSE,No,No,788,Tapu Fini,0788
+,,Unavailable,Unavailable,789,Cosmog,0789
+,,Unavailable,Unavailable,790,Cosmoem,0790
+FALSE,FALSE,No,No,791,Solgaleo,0791
+FALSE,FALSE,No,No,792,Lunala,0792
+FALSE,FALSE,No,No,793,Nihilego,0793
+FALSE,FALSE,No,No,794,Buzzwole,0794
+FALSE,FALSE,No,No,795,Pheromosa,0795
+FALSE,FALSE,No,No,796,Xurkitree,0796
+FALSE,FALSE,No,No,797,Celesteela,0797
+FALSE,FALSE,No,No,798,Kartana,0798
+FALSE,FALSE,No,No,799,Guzzlord,0799
+FALSE,FALSE,No,No,800,Necrozma,0800
+,,Unavailable,Unavailable,801,Magearna,0801
+,,Unavailable,Unavailable,801_o,Original Color Magearna,
+,,Unavailable,Unavailable,802,Marshadow,0802
+FALSE,FALSE,No,No,803,Poipole,0803
+FALSE,FALSE,No,No,804,Naganadel,0804
+FALSE,FALSE,No,No,805,Stakataka,0805
+FALSE,FALSE,No,No,806,Blacephalon,0806
+FALSE,FALSE,No,No,807,Zeraora,0807
+FALSE,FALSE,No,No,808,Meltan,0808
+,,Unavailable,Unavailable,809,Melmetal,0809
+FALSE,FALSE,No,No,810,Grookey,0810
+FALSE,FALSE,No,No,811,Thwackey,0811
+FALSE,FALSE,No,No,812,Rillaboom,0812
+FALSE,FALSE,No,No,813,Scorbunny,0813
+FALSE,FALSE,No,No,814,Raboot,0814
+FALSE,FALSE,No,No,815,Cinderace,0815
+FALSE,FALSE,No,No,816,Sobble,0816
+FALSE,FALSE,No,No,817,Drizzile,0817
+FALSE,FALSE,No,No,818,Inteleon,0818
+FALSE,FALSE,No,No,819,Skwovet,0819
+FALSE,FALSE,No,No,820,Greedent,0820
+FALSE,FALSE,No,No,821,Rookidee,0821
+FALSE,FALSE,No,No,822,Corvisquire,0822
+FALSE,FALSE,No,No,823,Corviknight,0823
+FALSE,FALSE,No,No,824,Blipbug,0824
+FALSE,FALSE,No,No,825,Dottler,0825
+FALSE,FALSE,No,No,826,Orbeetle,0826
+FALSE,FALSE,No,No,827,Nickit,0827
+FALSE,FALSE,No,No,828,Thievul,0828
+FALSE,FALSE,No,No,829,Gossifleur,0829
+FALSE,FALSE,No,No,830,Eldegoss,0830
+FALSE,FALSE,No,No,831,Wooloo,0831
+FALSE,FALSE,No,No,832,Dubwool,0832
+FALSE,FALSE,No,No,833,Chewtle,0833
+FALSE,FALSE,No,No,834,Drednaw,0834
+FALSE,FALSE,No,No,835,Yamper,0835
+FALSE,FALSE,No,No,836,Boltund,0836
+FALSE,FALSE,No,No,837,Rolycoly,0837
+FALSE,FALSE,No,No,838,Carkol,0838
+FALSE,FALSE,No,No,839,Coalossal,0839
+FALSE,FALSE,No,No,840,Applin,0840
+FALSE,FALSE,No,No,841,Flapple,0841
+FALSE,FALSE,No,No,842,Appletun,0842
+FALSE,FALSE,No,No,843,Silicobra,0843
+FALSE,FALSE,No,No,844,Sandaconda,0844
+FALSE,FALSE,No,No,845,Cramorant,0845
+FALSE,FALSE,No,No,846,Arrokuda,0846
+FALSE,FALSE,No,No,847,Barraskewda,0847
+FALSE,FALSE,No,No,848,Toxel,0848
+FALSE,FALSE,No,No,849_a,Amped Toxtricity,0849
+,FALSE,No,No,849_l,Low Key Toxtricity,
+FALSE,FALSE,No,No,850,Sizzlipede,0850
+FALSE,FALSE,No,No,851,Centiskorch,0851
+FALSE,FALSE,No,No,852,Clobbopus,0852
+FALSE,FALSE,No,No,853,Grapploct,0853
+FALSE,FALSE,No,No,854_p,Phony Sinistea,0854
+,FALSE,No,No,854_a,Antique Sinistea,
+FALSE,FALSE,No,No,855_p,Phony Polteageist,0855
+,FALSE,No,No,855_a,Antique Polteageist,
+FALSE,FALSE,No,No,856,Hatenna,0856
+FALSE,FALSE,No,No,857,Hattrem,0857
+FALSE,FALSE,No,No,858,Hatterene,0858
+FALSE,FALSE,No,No,859,Impidimp,0859
+FALSE,FALSE,No,No,860,Morgrem,0860
+FALSE,FALSE,No,No,861,Grimmsnarl,0861
+FALSE,FALSE,No,No,862,Obstagoon,0862
+FALSE,FALSE,No,No,863,Perrserker,0863
+FALSE,FALSE,No,No,864,Cursola,0864
+FALSE,FALSE,No,No,865,Sirfetch'd,0865
+FALSE,FALSE,No,No,866,Mr. Rime,0866
+FALSE,FALSE,No,No,867,Runerigus,0867
+FALSE,FALSE,No,No,868,Milcery,0868
+FALSE,FALSE,No,No,869_sv,Strawberry Vanilla Cream Alcremie,0869
+,FALSE,No,No,869_bv,Berry Vanilla Cream Alcremie,
+,FALSE,No,No,869_lv,Love Vanilla Cream Alcremie,
+,FALSE,No,No,869_cv,Clover Vanilla Cream Alcremie,
+,FALSE,No,No,869_fv,Flower Vanilla Cream Alcremie,
+,FALSE,No,No,869_stv,Star Vanilla Cream Alcremie,
+,FALSE,No,No,869_rv,Ribbon Vanilla Cream Alcremie,
+FALSE,FALSE,No,No,870,Falinks,0870
+FALSE,FALSE,No,No,871,Pincurchin,0871
+FALSE,FALSE,No,No,872,Snom,0872
+FALSE,FALSE,No,No,873,Frosmoth,0873
+FALSE,FALSE,No,No,874,Stonjourner,0874
+FALSE,FALSE,No,No,875,Eiscue,0875
+FALSE,FALSE,No,No,876_m,Indeedee ♂,0876
+,FALSE,No,No,876_f,Indeedee ♀,
+FALSE,FALSE,No,No,877,Morpeko,0877
+FALSE,FALSE,No,No,878,Cufant,0878
+FALSE,FALSE,No,No,879,Copperajah,0879
+FALSE,FALSE,No,No,880,Dracozolt,0880
+FALSE,FALSE,No,No,881,Arctozolt,0881
+FALSE,FALSE,No,No,882,Dracovish,0882
+FALSE,FALSE,No,No,883,Arctovish,0883
+FALSE,FALSE,No,No,884,Duraludon,0884
+FALSE,FALSE,No,No,885,Dreepy,0885
+FALSE,FALSE,No,No,886,Drakloak,0886
+FALSE,FALSE,No,No,887,Dragapult,0887
+FALSE,FALSE,No,No,888,Zacian,0888
+FALSE,FALSE,No,No,889,Zamazenta,0889
+FALSE,FALSE,No,No,890,Eternatus,0890
+,,Unavailable,Unavailable,891,Kubfu,0891
+,,Unavailable,Unavailable,892_s,Single Strike Style Urshifu,0892
+,,Unavailable,Unavailable,892_r,Rapid Strike Style Urshifu,
+,,Unavailable,Unavailable,893,Zarude,0893
+FALSE,FALSE,No,No,894,Regieleki,0894
+FALSE,FALSE,No,No,895,Regidrago,0895
+,,Unavailable,Unavailable,896,Glastrier,0896
+,,Unavailable,Unavailable,897,Spectrier,0897
+,,Unavailable,Unavailable,898,Calyrex,0898
+FALSE,FALSE,No,No,899,Wyrdeer,0899
+FALSE,FALSE,No,No,900,Kleavor,0900
+FALSE,FALSE,No,No,901,Ursaluna,0901
+,,Unavailable,Unavailable,901,Bloodmoon Ursaluna,0901
+FALSE,FALSE,No,No,902_m,Basculegion ♂,0902
+,FALSE,No,No,902_f,Basculegion ♀,
+FALSE,FALSE,No,No,903,Sneasler,0903
+FALSE,FALSE,No,No,904,Overqwil,0904
+,,No,No,905_i,Incarnate Forme Enamorus,0905
+,,Unavailable,Unavailable,905_t,Therian Forme Enamorus,
+FALSE,FALSE,No,No,906,Sprigatito,0906
+FALSE,FALSE,No,No,907,Floragato,0907
+FALSE,FALSE,No,No,908,Meowscarada,0908
+FALSE,FALSE,No,No,909,Fuecoco,0909
+FALSE,FALSE,No,No,910,Crocalor,0910
+FALSE,FALSE,No,No,911,Skeledirge,0911
+FALSE,FALSE,No,No,912,Quaxly,0912
+FALSE,FALSE,No,No,913,Quaxwell,0913
+FALSE,FALSE,No,No,914,Quaquaval,0914
+FALSE,FALSE,No,No,915,Lechonk,0915
+FALSE,FALSE,No,No,916_m,Oinkologne ♂,0916
+,FALSE,No,No,916_f,Oinkologne ♀,
+FALSE,FALSE,No,No,917,Tarountula,0917
+FALSE,FALSE,No,No,918,Spidops,0918
+FALSE,FALSE,No,No,919,Nymble,0919
+FALSE,FALSE,No,No,920,Lokix,0920
+FALSE,FALSE,No,No,921,Pawmi,0921
+FALSE,FALSE,No,No,922,Pawmo,0922
+FALSE,FALSE,No,No,923,Pawmot,0923
+FALSE,FALSE,No,No,924,Tandemaus,0924
+FALSE,FALSE,No,No,925_3,Family of Three Maushold,0925
+,FALSE,No,No,925_4,Family of Four Maushold,
+FALSE,FALSE,No,No,926,Fidough,0926
+FALSE,FALSE,No,No,927,Dachsbun,0927
+FALSE,FALSE,No,No,928,Smoliv,0928
+FALSE,FALSE,No,No,929,Dolliv,0929
+FALSE,FALSE,No,No,930,Arboliva,0930
+FALSE,FALSE,No,No,931_g,Green Squawkabilly,0931
+,FALSE,No,No,931_b,Blue Squawkabilly,
+,FALSE,No,No,931_y,Yellow Squawkabilly,
+,FALSE,No,No,931_w,White Squawkabilly,
+FALSE,FALSE,No,No,932,Nacli,0932
+FALSE,FALSE,No,No,933,Naclstack,0933
+FALSE,FALSE,No,No,934,Garganacl,0934
+FALSE,FALSE,No,No,935,Charcadet,0935
+FALSE,FALSE,No,No,936,Armarouge,0936
+FALSE,FALSE,No,No,937,Ceruledge,0937
+FALSE,FALSE,No,No,938,Tadbulb,0938
+FALSE,FALSE,No,No,939,Bellibolt,0939
+FALSE,FALSE,No,No,940,Wattrel,0940
+FALSE,FALSE,No,No,941,Kilowattrel,0941
+FALSE,FALSE,No,No,942,Maschiff,0942
+FALSE,FALSE,No,No,943,Mabosstiff,0943
+FALSE,FALSE,No,No,944,Shroodle,0944
+FALSE,FALSE,No,No,945,Grafaiai,0945
+FALSE,FALSE,No,No,946,Bramblin,0946
+FALSE,FALSE,No,No,947,Brambleghast,0947
+FALSE,FALSE,No,No,948,Toedscool,0948
+FALSE,FALSE,No,No,949,Toedscruel,0949
+FALSE,FALSE,No,No,950,Klawf,0950
+FALSE,FALSE,No,No,951,Capsakid,0951
+FALSE,FALSE,No,No,952,Scovillain,0952
+FALSE,FALSE,No,No,953,Rellor,0953
+FALSE,FALSE,No,No,954,Rabsca,0954
+FALSE,FALSE,No,No,955,Flittle,0955
+FALSE,FALSE,No,No,956,Espathra,0956
+FALSE,FALSE,No,No,957,Tinkatink,0957
+FALSE,FALSE,No,No,958,Tinkatuff,0958
+FALSE,FALSE,No,No,959,Tinkaton,0959
+FALSE,FALSE,No,No,960,Wiglett,0960
+FALSE,FALSE,No,No,961,Wugtrio,0961
+FALSE,FALSE,No,No,962,Bombirdier,0962
+FALSE,FALSE,No,No,963,Finizen,0963
+FALSE,FALSE,No,No,964,Palafin,0964
+FALSE,FALSE,No,No,965,Varoom,0965
+FALSE,FALSE,No,No,966,Revavroom,0966
+FALSE,FALSE,No,No,967,Cyclizar,0967
+FALSE,FALSE,No,No,968,Orthworm,0968
+FALSE,FALSE,No,No,969,Glimmet,0969
+FALSE,FALSE,No,No,970,Glimmora,0970
+FALSE,FALSE,No,No,971,Greavard,0971
+FALSE,FALSE,No,No,972,Houndstone,0972
+FALSE,FALSE,No,No,973,Flamigo,0973
+FALSE,FALSE,No,No,974,Cetoddle,0974
+FALSE,FALSE,No,No,975,Cetitan,0975
+FALSE,FALSE,No,No,976,Veluza,0976
+FALSE,FALSE,No,No,977,Dondozo,0977
+FALSE,FALSE,No,No,978_c,Curly Tatsugiri,0978
+,FALSE,No,No,978_s,Stretch Tatsugiri,
+,FALSE,No,No,978_d,Droopy Tatsugiri,
+FALSE,FALSE,No,No,979,Annihilape,0979
+FALSE,FALSE,No,No,980,Clodsire,0980
+FALSE,FALSE,No,No,981,Farigiraf,0981
+FALSE,FALSE,No,No,982_2,Two Segment Dudunsparce,0982
+,FALSE,No,No,982_3,Three Segment Dudunsparce,
+FALSE,FALSE,No,No,983,Kingambit,0983
+FALSE,FALSE,No,No,984,Great Tusk,0984
+FALSE,FALSE,No,No,985,Scream Tail,0985
+FALSE,FALSE,No,No,986,Brute Bonnet,0986
+FALSE,FALSE,No,No,987,Flutter Mane,0987
+FALSE,FALSE,No,No,988,Slither Wing,0988
+FALSE,FALSE,No,No,989,Sandy Shocks,0989
+FALSE,FALSE,No,No,990,Iron Treads,0990
+FALSE,FALSE,No,No,991,Iron Bundle,0991
+FALSE,FALSE,No,No,992,Iron Hands,0992
+FALSE,FALSE,No,No,993,Iron Jugulis,0993
+FALSE,FALSE,No,No,994,Iron Moth,0994
+FALSE,FALSE,No,No,995,Iron Thorns,0995
+FALSE,FALSE,No,No,996,Frigibax,0996
+FALSE,FALSE,No,No,997,Arctibax,0997
+FALSE,FALSE,No,No,998,Baxcalibur,0998
+FALSE,FALSE,No,No,999,Gimmighoul,0999
+FALSE,FALSE,No,No,1000,Gholdengo,1000
+,,Unavailable,Unavailable,1001,Wo-Chien,1001
+,,Unavailable,Unavailable,1002,Chien-Pao,1002
+,,Unavailable,Unavailable,1003,Ting-Lu,1003
+,,Unavailable,Unavailable,1004,Chi-Yu,1004
+FALSE,FALSE,No,No,1005,Roaring Moon,1005
+FALSE,FALSE,No,No,1006,Iron Valiant,1006
+,,Unavailable,Unavailable,1007,Koraidon,1007
+,,Unavailable,Unavailable,1008,Miraidon,1008
+,,Unavailable,Unavailable,1009,Walking Wake,1009
+,,Unavailable,Unavailable,1010,Iron Leaves,1010
+FALSE,FALSE,No,No,1011,Dipplin,1011
+FALSE,FALSE,No,No,1012,Counterfeit Poltchageist,1012
+FALSE,FALSE,No,No,1012,Masterpiece Poltchageist,1013
+FALSE,FALSE,No,No,1013,Counterfeit Sinistcha,1013
+FALSE,FALSE,No,No,1013,Masterpiece Sinistcha,1013
+,,Unavailable,Unavailable,1014,Okidogi,1014
+,,Unavailable,Unavailable,1015,Munkidori,1015
+,,Unavailable,Unavailable,1016,Fezandipiti,1016
+,,Unavailable,Unavailable,1017,Ogerpon,1017
+FALSE,FALSE,No,No,1018,Archaludon,1018
+FALSE,FALSE,No,No,1019,Hydrapple,1019
+,,Unavailable,Unavailable,1020,Gouging Fire,1020
+,,Unavailable,Unavailable,1021,Raging Bolt,1021
+,,Unavailable,Unavailable,1022,Iron Boulder,1022
+,,Unavailable,Unavailable,1023,Iron Crown,1023
+,,Unavailable,Unavailable,1024,Terapagos,1024
+,,Unavailable,Unavailable,1025,Pecharunt,1025

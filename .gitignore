@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+resources/pokemon_sprites/
+resources/pokemon_sprites.zip
+saves/*
+todolist.txt
