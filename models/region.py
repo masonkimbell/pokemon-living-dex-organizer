@@ -18,3 +18,4 @@ class Region(Enum):
     PALDEA = 15
     KITAKAMI = 16
     BLUEBERRY = 17
+    LUMIOSE = 18

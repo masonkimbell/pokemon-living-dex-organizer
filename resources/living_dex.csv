@@ -900,7 +900,8 @@ FALSE,FALSE,No,No,670_r,Red Flower Floette,0670
 ,FALSE,No,No,670_b,Yellow Flower Floette,
 ,FALSE,No,No,670_o,Orange Flower Floette,
 ,FALSE,No,No,670_w,Blue Flower Floette,
-,FALSE,No,No,670_y,Whtie Flower Floette,
+,FALSE,No,No,670_y,White Flower Floette,
+,False,No,No,670_e,Eternal Flower Floette,
 FALSE,FALSE,No,No,671_r,Red Flower Florges,0671
 ,FALSE,No,No,671_b,Yellow Flower Florges,
 ,FALSE,No,No,671_o,Orange Flower Florges,
@@ -1166,6 +1167,7 @@ FALSE,FALSE,No,No,890,Eternatus,0890
 ,,Unavailable,Unavailable,892_s,Single Strike Style Urshifu,0892
 ,,Unavailable,Unavailable,892_r,Rapid Strike Style Urshifu,
 ,,Unavailable,Unavailable,893,Zarude,0893
+,,Unavailable,Unavailable,893_d,Zarude Dada,
 FALSE,FALSE,No,No,894,Regieleki,0894
 FALSE,FALSE,No,No,895,Regidrago,0895
 ,,Unavailable,Unavailable,896,Glastrier,0896

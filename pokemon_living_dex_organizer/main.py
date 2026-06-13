@@ -40,11 +40,11 @@ def extract_sprites():
 def main():
     all_pokemon = PokemonList()
     try:
-        with open("saves/shinylivingdex.json") as f:
+        with open("saves/living_dex.json") as f:
             print("opening with saved json data")
             all_pokemon.load_from_json()
     except FileNotFoundError:
-        with open("resources/shinylivingdex.csv") as f:
+        with open("resources/living_dex.csv") as f:
             print("opening with csv")
             reader_obj = csv.reader(f)
 

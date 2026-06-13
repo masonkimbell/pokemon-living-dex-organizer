@@ -3,7 +3,7 @@ import json
 import os
 from .pokedex import EntryRow
 from .region import Region
-
+from data.constants import SHINY_LOCKED
 
 class Pokemon:
     def __init__(self, entry: EntryRow, row: list = [], prev: Pokemon = None):
@@ -74,6 +74,12 @@ class Pokemon:
                 self.region = Region.KITAKAMI
             elif int(self.number) >= 1018 and int(self.number) <= 1025:
                 self.region = Region.BLUEBERRY
+
+            # Bloodmoon Ursaluna and Eternal Flower Floette are edge cases
+            if "Bloodmoon Ursaluna" in name:
+                self.region = Region.KITAKAMI
+            elif "Eternal Flower Floette" in name:
+                self.region = Region.LUMIOSE
 
             self.name = name
             self.have = False
@@ -181,7 +187,7 @@ class PokemonList:
 
     def load_from_json(self):
         self.pokemon_list = []
-        with open("saves/shinylivingdex.json", "r+") as f:
+        with open("saves/living_dex.json", "r+") as f:
             data = json.load(f)
         for item in data:
             self.pokemon_list.append(Pokemon(item))
@@ -191,7 +197,7 @@ class PokemonList:
         for item in self.pokemon_list:
             out_json.append(item.to_dict())
 
-        with open("saves/shinylivingdex.json", "w+") as f:
+        with open("saves/living_dex.json", "w+") as f:
             json.dump(out_json, f)
 
 
@@ -222,6 +228,24 @@ class PokemonList:
 
         sublist.init_boxes()
         return sublist
+
+
+    def calculate_completion_stats(self, region_filter: list[Region] | None, game_filter: None) -> tuple[int, int]:
+        total = 0
+        shiny_count = 0
+
+        sublist = PokemonList()
+
+        for item in self.pokemon_list:
+            if item.region in region_filter or not region_filter:
+                if item.name in SHINY_LOCKED:
+                    continue
+                total += 1
+
+                if item.have:
+                    shiny_count += 1
+
+        return shiny_count, total
 
 
     def init_boxes(self):
