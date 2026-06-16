@@ -2,8 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 
-from .pokemon import Pokemon, PokemonList
-from .region import Region
+from models.pokemon import Pokemon, PokemonList
+from models.region import Region
 from data.constants import SHINY_LOCKED
 
 def _add_subregions(region: Region):

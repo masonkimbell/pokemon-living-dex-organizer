@@ -3,12 +3,14 @@ import csv
 
 import tkinter as tk
 import sys
+import json
 import urllib.request
 import zipfile
 from pathlib import Path
 from dotenv import load_dotenv
 
-from models import PokemonList, GUI
+from models import PokemonList
+from ui import GUI
 
 load_dotenv()
 
@@ -54,6 +56,8 @@ def main():
                 all_pokemon.add_pokemon(row)
             all_pokemon.sort_by_region()
             all_pokemon.save_to_json()
+
+        all_pokemon.add_games_found()
 
     all_pokemon.init_boxes()
 

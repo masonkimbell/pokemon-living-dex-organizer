@@ -3,7 +3,9 @@ import json
 import os
 from .pokedex import EntryRow
 from .region import Region
-from data.constants import SHINY_LOCKED
+from .game import Game
+from data.constants import SHINY_LOCKED, REGIONAL_VARIANT_GAME_INDEX, REGIONAL_VARIANT_REGIONS, GAMES_TO_MAX_REGION_MAPPING
+from api import PokeAPI
 
 class Pokemon:
     def __init__(self, entry: EntryRow, row: list = [], prev: Pokemon = None):
@@ -14,6 +16,7 @@ class Pokemon:
             self.form: int = entry['form']
             self.have: bool = entry['have']
             self.image_path: str = entry['image_path']
+            self.games: list[Game] = entry['games']
         if row:
             self.entry = {}
 
@@ -84,6 +87,7 @@ class Pokemon:
             self.name = name
             self.have = False
             self.image_path = self.get_image_path()
+            self.games = []
 
     def __repr__(self):
         return self.name
@@ -158,7 +162,8 @@ class Pokemon:
             'region': self.region.value,
             'form': self.form,
             'have': self.have,
-            'image_path': self.image_path
+            'image_path': self.image_path,
+            'games': [g.name for g in self.games]
         }
 
 
@@ -234,8 +239,6 @@ class PokemonList:
         total = 0
         shiny_count = 0
 
-        sublist = PokemonList()
-
         for item in self.pokemon_list:
             if item.region in region_filter or not region_filter:
                 if item.name in SHINY_LOCKED:
@@ -246,6 +249,38 @@ class PokemonList:
                     shiny_count += 1
 
         return shiny_count, total
+
+
+    def add_games_found(self):
+        pokeapi_client = PokeAPI()
+
+        for game in GAMES_TO_MAX_REGION_MAPPING:
+            just_numbers, sc = pokeapi_client.get_pokedex_by_game(game)
+
+            max_region = GAMES_TO_MAX_REGION_MAPPING[game]
+
+            # print(just_numbers)
+
+            for item in self.pokemon_list:
+                if item.region.value > max_region:
+                    continue
+                # if item["number"] == 866 and game =='pla':
+                #     pass # mark as had, you can get a PLA-marked Mr. Rime
+                if int(item.number) in just_numbers:
+                    if item.region.value in REGIONAL_VARIANT_REGIONS:
+                        if item.name in REGIONAL_VARIANT_GAME_INDEX[game]:
+                            item.games.append(Game[game])
+                    else:
+                        if int(item.number) == 666 and game == 'za':
+                            if "Meadow" in item.name or "Garden" in item.name: # only two vivillon forms in za
+                                item.games.append(Game[game])
+                                continue
+                            else:
+                                continue
+                        item.games.append(Game[game])
+            print(f'{game} complete')
+
+        self.save_to_json()
 
 
     def init_boxes(self):
