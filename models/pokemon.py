@@ -235,20 +235,36 @@ class PokemonList:
         return sublist
 
 
-    def calculate_completion_stats(self, region_filter: list[Region] | None, game_filter: None) -> tuple[int, int]:
+    def calculate_completion_stats(self, shiny_mode_toggle: bool, region_filter: list[Region] | None, game_filter: Game | None) -> tuple[int, int]:
         total = 0
-        shiny_count = 0
+        completion_count = 0
 
         for item in self.pokemon_list:
-            if item.region in region_filter or not region_filter:
-                if item.name in SHINY_LOCKED:
+            if region_filter: # region mode
+                if item.region in region_filter or not region_filter:
+                    if item.name in SHINY_LOCKED and shiny_mode_toggle:
+                        continue
+                    total += 1
+
+                    if item.have:
+                        completion_count += 1
+            elif game_filter: # game mode
+                if game_filter.name in item.games:
+                    if item.name in SHINY_LOCKED and shiny_mode_toggle:
+                        continue
+                    total += 1
+
+                    if item.have:
+                        completion_count += 1
+            else: # total
+                if item.name in SHINY_LOCKED and shiny_mode_toggle:
                     continue
                 total += 1
 
                 if item.have:
-                    shiny_count += 1
+                    completion_count += 1
 
-        return shiny_count, total
+        return completion_count, total
 
 
     def add_games_found(self):

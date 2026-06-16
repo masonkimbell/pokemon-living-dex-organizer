@@ -2,9 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
 
-from models.pokemon import Pokemon, PokemonList
-from models.region import Region
-from data.constants import SHINY_LOCKED
+from models import Pokemon, PokemonList, Region, Game
+from data.constants import SHINY_LOCKED, GAMES_TO_MAX_REGION_MAPPING
 
 def _add_subregions(region: Region):
     region_filter_in: list[Region] = [region]
@@ -18,6 +17,7 @@ def _add_subregions(region: Region):
     region_filter_in = sorted(region_filter_in, key=lambda r: r.value)
 
     return region_filter_in
+
 
 class GUI:
     def __init__(self, root: tk.Tk, data: PokemonList):
@@ -177,38 +177,55 @@ class GUI:
         exclude_regions = ["UNKNOWN", "KITAKAMI", "BLUEBERRY", "LUMIOSE"]
         region_list = [region for region in Region if "VARIANT" not in region.name and all(r not in region.name for r in exclude_regions)]
 
-        for i, region in enumerate(region_list):
+        style = ttk.Style()
+        style.theme_use('clam')  # Allows custom colors on Windows/Mac/Linux
+        style.configure("Green.Horizontal.TProgressbar", background="#2ECC71", troughcolor="#E5E7E9")
+        style.configure("Blue.Horizontal.TProgressbar", background="#3498DB", troughcolor="#E5E7E9")
+        style.configure("Red.Horizontal.TProgressbar", background="#F54927", troughcolor="#E5E7E9")
+
+        self.total_title_label = tk.Label(scrollable_inner_frame, text="Total:", font=("Arial", 16))
+        self.total_title_label.pack()
+        
+        # display total stats
+        self.display_stats(scrollable_inner_frame, "Green.Horizontal.TProgressbar", "TOTAL", None, None)
+        
+        # display stats by region
+        for region in region_list:
             region_filter_in = _add_subregions(region)
+            self.display_stats(scrollable_inner_frame, "Blue.Horizontal.TProgressbar", region.name, region_filter_in, None)
 
-            style = ttk.Style()
-            style.theme_use('clam')  # Allows custom colors on Windows/Mac/Linux
-            style.configure("Green.Horizontal.TProgressbar", background="#2ECC71", troughcolor="#E5E7E9")
-            style.configure("Blue.Horizontal.TProgressbar", background="#3498DB", troughcolor="#E5E7E9")
+        self.game_title_label = tk.Label(scrollable_inner_frame, text="By Game:", font=("Arial", 16))
+        self.game_title_label.pack()
 
-            shiny_count, total = self.data.calculate_completion_stats(region_filter_in, None) # add game filter here when that's ready
-            percentage = shiny_count * 100 / total if total > 0 else 0
-
-            region_name_label = tk.Label(scrollable_inner_frame, text=region.name, font=("Arial", 12, "bold"))
-            region_name_label.pack(padx=10, pady=10)
-
-            progress_bar = ttk.Progressbar(
-                scrollable_inner_frame,
-                orient="horizontal",
-                length=600,
-                mode="determinate",
-                style="Blue.Horizontal.TProgressbar"
-            )
-            progress_bar.pack(padx=10, pady=10)
-            progress_bar['value'] = percentage
-
-            stat_label = tk.Label(scrollable_inner_frame, text=f"{shiny_count} / {total} ({percentage: .1f}%)", font=("Arial", 10))
-            stat_label.pack(padx=10, pady=10)
-
+        # display stats by game
+        for game in GAMES_TO_MAX_REGION_MAPPING:
+            self.display_stats(scrollable_inner_frame, "Red.Horizontal.TProgressbar", Game[game].value, None, Game[game])
 
         self.menu_button = tk.Button(scrollable_inner_frame, text="Return to Menu", command=self.return_to_menu, font=("Arial", 12))
         self.menu_button.pack(pady=5)
 
         self.stats_frame.pack(padx=10, pady=10, fill="both", expand=True)
+
+
+    def display_stats(self, frame: tk.Frame, color_str: str, label_name: str, region_filter: list[Region] | None, game_filter: Game | None):
+        completion_count, total = self.data.calculate_completion_stats(self.shiny_mode_toggle.get(), region_filter, game_filter)
+        percentage = completion_count * 100 / total if total > 0 else 0
+
+        name_label = tk.Label(frame, text=label_name, font=("Arial", 12, "bold"))
+        name_label.pack(padx=10, pady=(15, 2))
+
+        stat_label = tk.Label(frame, text=f"{completion_count} / {total} ({percentage: .1f}%)", font=("Arial", 10))
+        stat_label.pack(padx=10, pady=(0, 5))
+
+        progress_bar = ttk.Progressbar(
+            frame,
+            orient="horizontal",
+            length=600,
+            mode="determinate",
+            style=color_str
+        )
+        progress_bar.pack(padx=10, pady=10)
+        progress_bar['value'] = percentage
 
 
     def return_to_menu(self):

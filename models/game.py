@@ -1,22 +1,22 @@
 from enum import Enum
 
 class Game(Enum):
-    rgby = 1
-    gsc = 2
-    rse = 3
-    frlg = 4
-    dp = 5
-    platinum = 6
-    hgss = 7
-    bw = 8
-    b2w2 = 9
-    xy = 10
-    oras = 11
-    sm = 12
-    usum = 13
-    lgpe = 14
-    swsh = 15
-    bdsp = 16
-    pla = 17
-    sv = 18
-    za = 19
+    rgby = "RED/GREEN/BLUE/YELLOW"
+    gsc = "GOLD/SILVER/CRYSTAL"
+    rse = "RUBY/SAPPHIRE/EMERALD"
+    frlg = "FIRERED/LEAFGREEN"
+    dp = "DIAMOND/PEARL"
+    platinum = "PLATINUM"
+    hgss = "HEARTGOLD/SOULSILVER"
+    bw = "BLACK/WHITE"
+    b2w2 = "BLACK 2/WHITE 2"
+    xy = "X/Y"
+    oras = "OMEGA RUBY/ALPHA SAPPHIRE"
+    sm = "SUN/MOON"
+    usum = "ULTRA SUN/ULTRA MOON"
+    lgpe = "LET'S GO PIKACHU/LET'S GO EEVEE"
+    swsh = "SWORD/SHIELD"
+    bdsp = "BRILLIANT DIAMOND/SHINING PEARL"
+    pla = "LEGENDS ARCEUS"
+    sv = "SCARLET/VIOLET"
+    za = "Z-A"
