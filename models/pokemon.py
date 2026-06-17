@@ -16,7 +16,7 @@ class Pokemon:
             self.form: int = entry['form']
             self.have: bool = entry['have']
             self.image_path: str = entry['image_path']
-            self.games: list[Game] = entry['games']
+            self.games: list[Game] = [Game[g] for g in entry['games']]
         if row:
             self.entry = {}
 
@@ -190,9 +190,9 @@ class PokemonList:
         for item in self.pokemon_list:
             print(item.entry)
 
-    def load_from_json(self):
+    def load_from_json(self, path_name="saves/living_dex.json"):
         self.pokemon_list = []
-        with open("saves/living_dex.json", "r+") as f:
+        with open(path_name, "r+") as f:
             data = json.load(f)
         for item in data:
             self.pokemon_list.append(Pokemon(item))
@@ -249,7 +249,7 @@ class PokemonList:
                     if item.have:
                         completion_count += 1
             elif game_filter: # game mode
-                if game_filter.name in item.games:
+                if game_filter in item.games:
                     if item.name in SHINY_LOCKED and shiny_mode_toggle:
                         continue
                     total += 1
@@ -268,6 +268,9 @@ class PokemonList:
 
 
     def add_games_found(self):
+        """Patch list of games found for each pokemon in initial save template.
+        This should only be done the first time the save is created
+        """
         pokeapi_client = PokeAPI()
 
         for game in GAMES_TO_MAX_REGION_MAPPING:

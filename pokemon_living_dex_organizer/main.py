@@ -3,7 +3,7 @@ import csv
 
 import tkinter as tk
 import sys
-import json
+import argparse
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -40,11 +40,14 @@ def extract_sprites():
             sys.exit(1)
 
 def main():
+    parser = argparse.ArgumentParser(description="Pokemon Living Dex Organizer")
+    parser.add_argument("--save", type=str, default="saves/living_dex.json", required=False, help="path of save to use")
+    args = parser.parse_args()
+
     all_pokemon = PokemonList()
     try:
-        with open("saves/living_dex.json") as f:
-            print("opening with saved json data")
-            all_pokemon.load_from_json()
+        print("opening with saved json data")
+        all_pokemon.load_from_json(args.save)
     except FileNotFoundError:
         with open("resources/living_dex.csv") as f:
             print("opening with csv")
@@ -55,9 +58,9 @@ def main():
                     continue
                 all_pokemon.add_pokemon(row)
             all_pokemon.sort_by_region()
-            all_pokemon.save_to_json()
 
         all_pokemon.add_games_found()
+        all_pokemon.save_to_json()
 
     all_pokemon.init_boxes()
 
