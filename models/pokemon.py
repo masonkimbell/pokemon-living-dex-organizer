@@ -168,8 +168,9 @@ class Pokemon:
 
 
 class PokemonList:
-    pokemon_list: list[Pokemon] = []
-    boxes = []
+    def __init__(self):
+        self.pokemon_list: list[Pokemon] = []
+        self.boxes = []
 
     def find(self, number, form_id):
         for item in self.pokemon_list:
@@ -239,6 +240,8 @@ class PokemonList:
         total = 0
         completion_count = 0
 
+        missing = PokemonList()
+
         for item in self.pokemon_list:
             if region_filter: # region mode
                 if item.region in region_filter or not region_filter:
@@ -248,6 +251,9 @@ class PokemonList:
 
                     if item.have:
                         completion_count += 1
+                    else:
+                        missing.pokemon_list.append(item)
+
             elif game_filter: # game mode
                 if game_filter in item.games:
                     if item.name in SHINY_LOCKED and shiny_mode_toggle:
@@ -256,6 +262,9 @@ class PokemonList:
 
                     if item.have:
                         completion_count += 1
+                    else:
+                        missing.pokemon_list.append(item)
+
             else: # total
                 if item.name in SHINY_LOCKED and shiny_mode_toggle:
                     continue
@@ -263,8 +272,11 @@ class PokemonList:
 
                 if item.have:
                     completion_count += 1
+                else:
+                    missing.pokemon_list.append(item)
 
-        return completion_count, total
+        missing.init_boxes()
+        return completion_count, total, missing
 
 
     def add_games_found(self):

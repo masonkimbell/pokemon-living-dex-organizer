@@ -30,6 +30,7 @@ class GUI:
         self.menu_frame = tk.Frame(root)
         self.checklist_frame = tk.Frame(root)
         self.stats_frame = tk.Frame(root)
+        self.missing_frame = tk.Frame(root)
 
         # display main menu
         self.setup_menu_screen()
@@ -103,6 +104,8 @@ class GUI:
         self.current_page = tk.StringVar(value="1")
         self.checkbox_vars = []
 
+        self.render_fn = self.show_page
+
         self.title_label = tk.Label(self.checklist_frame, text="")
         self.title_label.pack()
 
@@ -136,6 +139,7 @@ class GUI:
 
     def show_stats(self):
         self.menu_frame.pack_forget()
+        self.missing_frame.pack_forget()
 
         for widget in self.stats_frame.winfo_children():
             widget.destroy()
@@ -208,7 +212,9 @@ class GUI:
 
 
     def display_stats(self, frame: tk.Frame, color_str: str, label_name: str, region_filter: list[Region] | None, game_filter: Game | None):
-        completion_count, total = self.data.calculate_completion_stats(self.shiny_mode_toggle.get(), region_filter, game_filter)
+        self.missing_frame.pack_forget()
+
+        completion_count, total, missing = self.data.calculate_completion_stats(self.shiny_mode_toggle.get(), region_filter, game_filter)
         percentage = completion_count * 100 / total if total > 0 else 0
 
         name_label = tk.Label(frame, text=label_name, font=("Arial", 12, "bold"))
@@ -216,6 +222,14 @@ class GUI:
 
         stat_label = tk.Label(frame, text=f"{completion_count} / {total} ({percentage: .1f}%)", font=("Arial", 10))
         stat_label.pack(padx=10, pady=(0, 5))
+
+        missing_button = tk.Button(
+            frame, 
+            text="Show Missing", 
+            command=lambda f=missing: self.start_missing(f),
+            font=("Arial", 12)
+        )
+        missing_button.pack(padx=10, pady=(0, 5))
 
         progress_bar = ttk.Progressbar(
             frame,
@@ -226,6 +240,108 @@ class GUI:
         )
         progress_bar.pack(padx=10, pady=10)
         progress_bar['value'] = percentage
+
+
+    def start_missing(self, missing: PokemonList):
+        """Load boxes for selected region based on filter param"""
+        # hide menu
+        self.stats_frame.pack_forget()
+
+        # clear old missing page, allows switching between
+        for widget in self.missing_frame.winfo_children():
+            widget.destroy()
+
+        self.page_numbers = [x + 1 for x in range(len(missing.boxes))]
+        self.current_page = tk.StringVar(value="1")
+        self.checkbox_vars = []
+
+        self.active_missing_data = missing
+        self.render_fn = self.show_missing
+
+        self.title_label = tk.Label(self.missing_frame, text="")
+        self.title_label.pack()
+
+        self.page_dropdown = ttk.Combobox(
+            self.missing_frame,
+            textvariable=self.current_page,
+            values=self.page_numbers,
+            state="readonly",
+        )
+        self.page_dropdown.pack()
+        self.page_dropdown.bind("<<ComboboxSelected>>", self.on_page_change)
+
+        self.missing_page_frame = tk.Frame(self.missing_frame)
+        self.missing_page_frame.pack()
+
+        self.prev_button = tk.Button(self.missing_frame, text="Previous", command=self.show_previous)
+        self.prev_button.pack(side=tk.LEFT, padx=5, pady=5)
+
+        self.next_button = tk.Button(self.missing_frame, text="Next", command=self.show_next)
+        self.next_button.pack(side=tk.RIGHT, padx=5, pady=5)
+
+        self.menu_button = tk.Button(self.missing_frame, text="Return to Stats", command=self.show_stats)
+        self.menu_button.pack(pady=5)
+
+        self.missing_frame.pack(padx=10, pady=10)
+        self.show_missing()
+
+
+    def show_missing(self):
+        """Render missing Pokemon images and names in grid format"""
+        for widget in self.missing_page_frame.winfo_children():
+            widget.destroy()
+
+        # pre-allocate space for columns to handle empty spaces
+        for col in range(6):
+            self.missing_page_frame.grid_columnconfigure(
+                col, 
+                weight=1, 
+                minsize=150,
+                uniform="box_cols"
+            )
+
+        # pre-allocate space for row contents (images, names) to handle empty spaces
+        for r in range(10):
+            if r % 2 == 0:
+                # pokemon images
+                self.missing_page_frame.grid_rowconfigure(r, weight=1, uniform="img_rows")
+            else:
+                # pokemon names
+                self.missing_page_frame.grid_rowconfigure(r, weight=1, uniform="lbl_rows")
+
+
+        box_data: list[list[Pokemon]] = self.active_missing_data.boxes[
+            self.get_current_page() - 1
+        ]  # 0-29
+        self.title_label.config(text=f"BOX {self.get_current_page()}")
+
+        for i, row in enumerate(box_data):
+            for j, item in enumerate(row):
+                item_label = tk.Label(
+                    self.missing_page_frame,
+                    text=item,
+                    width=14,
+                    height=2,
+                    wraplength=100,
+                    justify="center"
+                )
+
+                # image path ends with "_n" for normal and "_r" for shiny (rare). leave shiny locked pokemon as shiny locked
+                if item.name in SHINY_LOCKED:
+                    item.image_path = item.image_path.replace("_r.png", "_n.png")
+                elif self.shiny_mode_toggle.get():
+                    item.image_path = item.image_path.replace("_n.png", "_r.png")
+                else:
+                    item.image_path = item.image_path.replace("_r.png", "_n.png")
+
+                image = Image.open(item.image_path)
+                image = image.resize((50, 50), Image.LANCZOS)
+                photo = ImageTk.PhotoImage(image)
+                image_label = tk.Label(self.missing_page_frame, image=photo)
+                image_label.image = photo
+
+                image_label.grid(row=2 * i, column=j, padx=5, pady=5)
+                item_label.grid(row=2 * i + 1, column=j, padx=5, pady=5)
 
 
     def return_to_menu(self):
@@ -245,7 +361,7 @@ class GUI:
             self.page_frame.grid_columnconfigure(
                 col, 
                 weight=1, 
-                minsize=125,
+                minsize=150,
                 uniform="box_cols"
             )
 
@@ -273,9 +389,9 @@ class GUI:
                 item_label = tk.Label(
                     self.page_frame,
                     text=item,
-                    width=12,
+                    width=14,
                     height=2,
-                    wraplength=90,
+                    wraplength=100,
                     justify="center"
                 )
 
@@ -303,27 +419,27 @@ class GUI:
 
 
     def on_page_change(self, event):
-        self.show_page()
+        self.render_fn()
 
 
     def show_previous(self):
         active_page = self.get_current_page()
         if active_page > 1:
             self.set_current_page(active_page - 1)
-            self.show_page()
+            self.render_fn()
         elif active_page == 1:
-            self.set_current_page(len(self.active_data.boxes))
-            self.show_page()
+            self.set_current_page(len(self.page_numbers))
+            self.render_fn()
 
 
     def show_next(self):
         active_page = self.get_current_page()
-        if active_page < len(self.active_data.boxes):
+        if active_page < len(self.page_numbers):
             self.set_current_page(active_page + 1)
-            self.show_page()
-        elif active_page == len(self.active_data.boxes):
+            self.render_fn()
+        elif active_page == len(self.page_numbers):
             self.set_current_page(1)
-            self.show_page()
+            self.render_fn()
 
 
     def submit_results(self):
